@@ -18,7 +18,7 @@ Buradaki k denilen kukla değişkene<sup>1</sup> derslerimizde τ demiştik. Aş
 *Şekil 1:* RC devresi.
 
 *Şekil 1*'de gösterilen devrede ok yönünde dolaşırken Kirchoff'un Gerilimler Yasasını (KGY) uygularsak aşağıdaki eşitliği elde ederiz.</br>
--V<sub>cc</sub> + Ri(t) + V<sub>C</sub>
+-V<sub>cc</sub> + Ri(t) + V<sub>C</sub>(t) = 0
 
 ## Dipnotlar
 <sup>1</sup> İng. Dummy variable.</br>
