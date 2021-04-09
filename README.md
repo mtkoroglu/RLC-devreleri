@@ -3,14 +3,14 @@ Bu sayfada kapasitör ve endüktör devre elemanlarını anlamaya çalışıp RC
 ## RC devresi
 Kapasitörün matematiksel modeli 
 
-<img src="eşitlikler/kapasitör denklemi.jpg" alt="RC devresi." height="100"/>
+<img src="eşitlikler/kapasitör denklemi.jpg" alt="kapasitör denklemi." height="100"/>
 
 olarak verilmişti. Bu birinci dereceden adi diferansiyel denklemde eşitliğin her iki tarafının k=t<sub>0</sub> anından k=t anına kadar integralini alırsak aşağıdaki çözümü elde ederiz.
 
 
 <img src="şekiller/RC devresi basamak cevabı.jpg" alt="RC devresi." height="240"/>
 
-*Fig. 1:* A multi input single output MLP.
+*Fig. 1:* RC devresi.
 
 #### Exclusive OR (XOR) Problem
 <img src="figure/xor_problem_smaller.jpg" alt="MLP network is going to learn XOR problem." height="180"/>
