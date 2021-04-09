@@ -22,7 +22,16 @@ Buradaki k denilen kukla değişkene<sup>1</sup> derslerimizde τ demiştik. Aş
 
 Devremizde kapasitörün üzerinden geçen akım i<sub>C</sub>(t), aynı yönde tamamlandıklarından dolayı devrede dolaşan akım i(t)'ye eşit (i.e., i<sub>C</sub>(t)=i(t)). Bunu göz önünde bulundurarak yukarıda elde ettiğimiz ilk denklem olan kapasitörün matematiksel modelini KGY ile elde ettiğimiz denklemde yerine koyacak olursak
 
-<img src="eşitlikler/KGY sonucu.JPG" alt="KGY sonucu elde edilen eşitlik" height="60"/>
+<img src="eşitlikler/KGY sonucu.JPG" alt="KGY sonucu elde edilen eşitlik" height="55"/>
+
+birinci dereceden adi diferansiyel denklemini elde ederiz. Bu denklemi düzenlersek
+
+<img src="eşitlikler/KGY sonucu düzenlenmiş.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş hali" height="55"/>
+
+haline gelir. Biraz daha manipüle edersek
+
+<img src="eşitlikler/KGY sonucu düzenlenmiş manipüle.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş ve manipüle edilmiş hali" height="55"/>
+
 
 ## Dipnotlar
 <sup>1</sup> İng. Dummy variable.</br>
