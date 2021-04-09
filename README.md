@@ -3,11 +3,11 @@ Bu sayfada kapasitör ve endüktör devre elemanlarını anlamaya çalışıp RC
 ## RC devresi
 Kapasitörün matematiksel modeli 
 
-<img src="eşitlikler/kapasitör denklemi.JPG" alt="kapasitör denklemi." height="40"/>
+<img src="eşitlikler/kapasitör denklemi.JPG" alt="kapasitör denklemi." height="45"/>
 
 olarak verilmişti. Bu birinci dereceden adi diferansiyel denklemde eşitliğin her iki tarafının k=t<sub>0</sub> anından k=t anına kadar integralini alırsak aşağıdaki çözümü elde ederiz.
 
-<img src="eşitlikler/kapasitör denklemi çözümü.JPG" alt="kapasitör denklemi çözümü." height="70"/>
+<img src="eşitlikler/kapasitör denklemi çözümü.JPG" alt="kapasitör denklemi çözümü." height="60"/>
 
 Buradaki k denilen kukla değişkene<sup>1</sup> derslerimizde τ demiştik. Aşağıda zaman sabiti (time constant) kavramı karşımıza çıktığında zaman sabitine τ diyeceğimizden, bundan sonra karışıklık olmasın diye integral alırken zamanı temsil eden yatay ekseni k notasyonu ile göstereceğiz.
 
@@ -42,7 +42,7 @@ In weeks X-Y-Z, we will look at a classification example on images. Cats-dogs im
 *Fig. 6: Cats and dogs classification with deep learning.*
 
 ## Dipnotlar
-<sup>1</sup> İng. Dummy variable.
+<sup>1</sup> İng. Dummy variable.</br>
 <sup>2</sup> İng. Step response. Basamak cevabı [1]'de geçen bir kavramdır. Aynı kaynağı referans kullanan [2], bu cevabı zorlanmış cevap diye isimlendirerek yaklaşımı daha genelleştirmiştir (i.e., güç kaynağından devreye etki eden sinyalin sadece sabit bir DC gerilim olma şartı yok). Biz burada [1]'de geçen haliyle kullanmayı uygun gördük. 
 
 ## Referanslar
