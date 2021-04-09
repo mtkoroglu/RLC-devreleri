@@ -3,10 +3,15 @@ Bu sayfada kapasitör ve endüktör devre elemanlarını anlamaya çalışıp RC
 ## RC devresi
 Kapasitörün matematiksel modeli 
 
-<img src="eşitlikler/kapasitör denklemi.JPG" alt="kapasitör denklemi." height="70"/>
+<img src="eşitlikler/kapasitör denklemi.JPG" alt="kapasitör denklemi." height="50"/>
 
 olarak verilmişti. Bu birinci dereceden adi diferansiyel denklemde eşitliğin her iki tarafının k=t<sub>0</sub> anından k=t anına kadar integralini alırsak aşağıdaki çözümü elde ederiz.
 
+<img src="eşitlikler/kapasitör denklemi çözümü.JPG" alt="kapasitör denklemi çözümü." height="50"/>
+
+Buradaki k denilen kukla değişkene<sup>1</sup> derslerimizde τ demiştik. Aşağıda zaman sabiti (time constant) kavramı karşımıza çıktığında zaman sabitine τ diyeceğimizden, bundan sonra karışıklık olmasın diye integral alırken zamanı temsil eden yatay ekseni k notasyonu ile göstereceğiz.
+
+Şimdi, *Şekil 1*'de gördüğümüz üzere bir güç kaynağı, bir rezistör ve bir kapasitörden oluşan RC devresinin basamak cevabını<sup>2</sup> analiz edelim.
 
 <img src="şekiller/RC devresi basamak cevabı.jpg" alt="RC devresi." height="300"/>
 
@@ -36,7 +41,10 @@ In weeks X-Y-Z, we will look at a classification example on images. Cats-dogs im
 
 *Fig. 6: Cats and dogs classification with deep learning.*
 
+## Dipnotlar
+<sup>1</sup> İng. Dummy variable.
+<sup>2</sup> İng. Step response. Basamak cevabı [1]'de geçen bir kavramdır. Aynı kaynağı referans kullanan [2], bu cevabı zorlanmış cevap diye isimlendirerek yaklaşımı daha genelleştirmiştir (i.e., güç kaynağından devreye etki eden sinyalin sadece sabit bir DC gerilim olma şartı yok). Biz burada [1]'de geçen haliyle kullanmayı uygun gördük. 
 
-## References
-[1] T. Guillod, P. Papamanolis and J. W. Kolar, "Artificial Neural Network (ANN) Based Fast and Accurate Inductor Modeling and Design," in IEEE Open Journal of Power Electronics, vol. 1, pp. 284-299, 2020, doi: 10.1109/OJPEL.2020.3012777.</br>
-[2] "How to classify photos of dogs and cats (with 97% accuracy)." https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/. Accessed: 2021-3-10.</br>
+## Referanslar
+[1] J. W. Nilsson, S. A. Riedel, Electric Circuits, 10. Baskı, Prentice Hall, Upper Saddle River, New Jersey, 2014.</br>
+[2] M. Ö. Efe, Devre Analizi-I, 3. Baskı, Seçkin Yayıncılık, Ankara, 2016.
