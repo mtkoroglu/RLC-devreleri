@@ -32,6 +32,11 @@ haline gelir. Biraz daha manipüle edersek
 
 <img src="eşitlikler/KGY sonucu düzenlenmiş manipüle.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş ve manipüle edilmiş hali" height="55"/>
 
+denklemini elde ederiz. Eşitliğin her iki tarafının integralini k=0'dan k=t anına kadar alalım.
+
+<img src="eşitlikler/KGY sonucu düzenlenmiş manipüle integral.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş ve manipüle edilmiş hali" height="55"/>
+
+
 
 ## Dipnotlar
 <sup>1</sup> İng. Dummy variable.</br>
