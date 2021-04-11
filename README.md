@@ -65,7 +65,7 @@ Aşağıda grafiğini çizdireceğimiz kapasitörün üzerindeki voltajın matem
 
 *Şekil 2:* RC devresinin basamak cevabının V<sub>cc</sub> = 5V, V<sub>C</sub>(0) = 0V ve değişik R ve C değerlerine göre grafiği<sup>3</sup>.
 
-<img src="şekiller/RC_devresi_doğal_cevabı_grafik.png" alt="RC devresinin basamak cevabının değişik R ve C değerlerine göre çizdirilmiş hali" height="300"/>
+<img src="şekiller/RC_devresi_dogal_cevabı_grafik.png" alt="RC devresinin basamak cevabının değişik R ve C değerlerine göre çizdirilmiş hali" height="300"/>
 
 *Şekil 3:* RC devresinin doğal cevabının V<sub>C</sub>(0) = 5V ve değişik R ve C değerlerine göre grafiği<sup>4</sup>. Anahtarlama ile *Şekil 2*'de kaldığı durumdan devam edilmiştir.
 
@@ -77,7 +77,7 @@ Aşağıda grafiğini çizdireceğimiz kapasitörün üzerindeki voltajın matem
 
 *Şekil 5:* RL devresinin basamak cevabının V<sub>cc</sub> = 5V, i<sub>L</sub>(0) = 0A ve değişik R ve L değerlerine göre grafiği<sup>5</sup>.
 
-<img src="şekiller/RL_devresi_doğal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
+<img src="şekiller/RL_devresi_dogal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
 
 *Şekil 6:* RL devresinin doğal cevabının i<sub>L</sub>(0) *Şekil 5*'de hangi değere oturduysa kaldığı yerden ve değişik R ve L değerlerine göre grafiği<sup>6</sup>.
 ## Dipnotlar
