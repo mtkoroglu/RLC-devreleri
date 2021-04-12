@@ -1,6 +1,7 @@
 # RLC Devreleri (RLC Circuits)
 Bu sayfada kapasitör ve endüktör devre elemanlarını anlamaya çalışıp RC, RL ve RLC devrelerinin basamak (zorlanmış) ve doğal cevaplarına bakacağız.</br>
 <p style="color:red">This is a paragraph.</p>
+<span style="color:blue">some *blue* text</span>.
 We are going to analyze step and natural responses of RC, RL and RLC circuits in this page.
 ## RC devresi
 Kapasitörün matematiksel modeli
