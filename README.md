@@ -1,14 +1,21 @@
 # RLC Devreleri (RLC Circuits)
 Bu sayfada kapasitör ve endüktör devre elemanlarını anlamaya çalışıp RC, RL ve RLC devrelerinin basamak (zorlanmış) ve doğal cevaplarına bakacağız.
 ## RC devresi
-Kapasitörün matematiksel modeli</br>
-<img src="eşitlikler/kapasitör denklemi.JPG" alt="kapasitör denklemi." height="45"/></br>
-olarak verilmişti. Bu birinci dereceden adi diferansiyel denklemde eşitliğin her iki tarafının k=t<sub>0</sub> anından k=t anına kadar integralini alırsak aşağıdaki çözümü elde ederiz.</br>
-<img src="eşitlikler/kapasitör denklemi çözümü.JPG" alt="kapasitör denklemi çözümü." height="60"/></br>
+Kapasitörün matematiksel modeli
+
+<img src="eşitlikler/kapasitör denklemi.JPG" alt="kapasitör denklemi." height="45"/>
+
+olarak verilmişti. Bu birinci dereceden adi diferansiyel denklemde eşitliğin her iki tarafının k=t<sub>0</sub> anından k=t anına kadar integralini alırsak aşağıdaki çözümü elde ederiz.
+
+<img src="eşitlikler/kapasitör denklemi çözümü.JPG" alt="kapasitör denklemi çözümü." height="60"/>
+
 Buradaki k denilen kukla değişkene<sup>1</sup> derslerimizde τ demiştik. Aşağıda zaman sabiti (time constant) kavramı karşımıza çıktığında zaman sabitine τ diyeceğimizden, bundan sonra karışıklık olmasın diye integral alırken zamanı temsil eden yatay ekseni k notasyonu ile göstereceğiz.</br>
-Şimdi, *Şekil 1*'de gördüğümüz üzere bir güç kaynağı, bir rezistör ve bir kapasitörden oluşan RC devresinin basamak cevabını<sup>2</sup> analiz edelim.</br>
-<img src="şekiller/RC devresi basamak cevabı.jpg" alt="RC devresi." height="300"/></br>
-*Şekil 1:* RC devresi.</br>
+Şimdi, *Şekil 1*'de gördüğümüz üzere bir güç kaynağı, bir rezistör ve bir kapasitörden oluşan RC devresinin basamak cevabını<sup>2</sup> analiz edelim.
+
+<img src="şekiller/RC devresi basamak cevabı.jpg" alt="RC devresi." height="300"/>
+
+*Şekil 1:* RC devresi.
+
 *Şekil 1*'de gösterilen devrede ok yönünde dolaşırken Kirchoff'un Gerilimler Yasasını (KGY) uygularsak aşağıdaki eşitliği elde ederiz.</br>
 -V<sub>cc</sub> + Ri(t) + V<sub>C</sub>(t) = 0</br>
 Devremizde kapasitörün üzerinden geçen akım i<sub>C</sub>(t), aynı yönde tamamlandıklarından dolayı devrede dolaşan akım i(t)'ye eşit (i.e., i<sub>C</sub>(t)=i(t)). Bunu göz önünde bulundurarak yukarıda elde ettiğimiz ilk denklem olan kapasitörün matematiksel modelini KGY ile elde ettiğimiz denklemde yerine koyacak olursak</br>
