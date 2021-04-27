@@ -3,11 +3,11 @@ Bu sayfada kapasitör ve endüktör devre elemanlarını anlamaya çalışıp RC
 ## RC devresi
 Kapasitörün matematiksel modeli
 
-<img src="eşitlikler/kapasitör denklemi.JPG" alt="kapasitör denklemi." height="45"/>
+<img src="eşitlikler/kapasitör denklemi.JPG" alt="kapasitör denklemi." height="50"/>
 
 olarak verilmişti. Bu birinci dereceden adi diferansiyel denklemde eşitliğin her iki tarafının k=t<sub>0</sub> anından k=t anına kadar integralini alırsak aşağıdaki çözümü elde ederiz.
 
-<img src="eşitlikler/kapasitör denklemi çözümü.JPG" alt="kapasitör denklemi çözümü." height="60"/>
+<img src="eşitlikler/kapasitör denklemi çözümü.JPG" alt="kapasitör denklemi çözümü." height="55"/>
 
 Buradaki k denilen kukla değişkene<sup>1</sup> derslerimizde τ demiştik. Aşağıda zaman sabiti (time constant) kavramı karşımıza çıktığında zaman sabitine τ diyeceğimizden, bundan sonra karışıklık olmasın diye integral alırken zamanı temsil eden yatay ekseni k notasyonu ile göstereceğiz.</br>
 Şimdi, *Şekil 1*'de gördüğümüz üzere bir güç kaynağı, bir rezistör ve bir kapasitörden oluşan RC devresinin basamak cevabını<sup>2</sup> analiz edelim.
