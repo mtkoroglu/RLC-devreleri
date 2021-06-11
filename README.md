@@ -76,7 +76,7 @@ Aşağıda grafiğini çizdireceğimiz kapasitörün üzerindeki voltajın matem
 
 Zamanın başlangıcında **SW1** ile gösterilen ilk anahtarın kapanmasıyla V<sub>cc</sub> ile gösterilen güç kaynağından devrenin R ve C elemanlarına akım gelmeye başlıyor. Devrenin ortasında yer alan **SW2** anahtarı zamanın başında açık halde. Zaman t=2 saniye olduğu ana kadar devrenin basamak cevabı söz konusu. Zaman t=2s olduğu anda **SW1** açılıyor (yani artık üzerinden akım geçmiyor) ve **SW2** kapanıyor, böylece **Şekil 3**'de verilen anahtarlamalı devre **Şekil 4**'deki halini alıyor.
 
-<img src="şekiller/RC devresi dogal cevabı.jpg" alt="RC devresinin doğal cevap devresi" height="300"/>
+<img src="şekiller/RC devresi doğal cevabı.jpg" alt="RC devresinin doğal cevap devresi" height="300"/>
 
 *Şekil 4:* Yukarıda V<sub>cc</sub> ile gösterilen gerilim kaynağının anahtarlamalar vasıtasıyla dışarıda bırakılmasıyla oluşan RC devresi.
 
