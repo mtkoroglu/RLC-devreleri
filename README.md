@@ -68,16 +68,21 @@ Aşağıda grafiğini çizdireceğimiz kapasitörün üzerindeki voltajın matem
 
 *Şekil 2:* RC devresinin basamak cevabının V<sub>cc</sub> = 5V, V<sub>C</sub>(0) = 0V ve değişik R ve C değerlerine göre grafiği<sup>4</sup>.
 ### RC Devresinin Doğal Cevabı
-*Şekil 1*'de verilen devre ve de *Şekil 2*'de alınan cevap *Şekil 3*'deki devrenin ilk 2 saniyesine tekabül etmektedir.
+*Şekil 1*'de verilen devre ve de *Şekil 2*'de alınan cevap *Şekil 3*'deki devrenin t=0'dan t=2'ye kadar olan haline (yani ilk 2 saniyesine) tekabül etmektedir.
 
 <img src="şekiller/RC devresi anahtarlama.png" alt="RC devresinin anahtarlama ile basamak ve doğal cevabının üretilmesi" height="300"/>
 
 *Şekil 3:* RC devresinin anahtarlamalı hali.
 
+Zamanın başlangıcında **SW1** ile gösterilen ilk anahtarın kapanmasıyla V<sub>cc</sub> ile gösterilen güç kaynağından devrenin R ve C elemanlarına akım gelmeye başlıyor. Devrenin ortasında yer alan **SW2** anahtarı zamanın başında açık halde. Zaman t=2 saniye olduğu ana kadar devrenin basamak cevabı söz konusu. Zaman t=2s olduğu anda **SW1** açılıyor (yani artık üzerinden akım geçmiyor) ve **SW2** kapanıyor, böylece **Şekil 3**'de verilen anahtarlamalı devre **Şekil 4**'deki halini alıyor ve yeni elde ettiğimiz devrenin t=2s'den t→∞ tepkisine RC devresinin doğal cevabı deniyor.
+
 <img src="şekiller/RC_devresi_dogal_cevabı_grafik.png" alt="RC devresinin basamak cevabının değişik R ve C değerlerine göre çizdirilmiş hali" height="300"/>
 
 *Şekil 4:* RC devresinin doğal cevabının V<sub>C</sub>(0) = 5V ve değişik R ve C değerlerine göre grafiği<sup>5</sup>.
 
+Burada yine kabaca uç değerlere bakarak analiz yapacak olursak...
+
+## RL Devresi
 <img src="şekiller/RL devresi basamak cevabı.jpg" alt="RL devresi." height="300"/>
 
 *Şekil 5:* RL devresi.
