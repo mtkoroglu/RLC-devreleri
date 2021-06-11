@@ -1,6 +1,7 @@
 # RLC Devreleri (RLC Circuits)
 Bu sayfada kapasitör ve endüktör devre elemanlarını anlamaya çalışıp RC, RL ve RLC devrelerinin basamak (zorlanmış) ve doğal cevaplarına bakacağız.
-## RC devresi
+## RC devreleri
+### Kapasitörün Analitik Modeli
 Kapasitörün matematiksel modeli
 
 <img src="eşitlikler/kapasitör denklemi.JPG" alt="kapasitör denklemi." height="50"/>
@@ -10,6 +11,7 @@ olarak verilmişti. Bu birinci dereceden adi diferansiyel denklemde eşitliğin 
 <img src="eşitlikler/kapasitör denklemi çözümü.JPG" alt="kapasitör denklemi çözümü." height="55"/>
 
 Buradaki k denilen kukla değişkene<sup>1</sup> derslerimizde τ demiştik. Aşağıda zaman sabiti (time constant) kavramı karşımıza çıktığında zaman sabitine τ diyeceğimizden, bundan sonra karışıklık olmasın diye integral alırken zamanı temsil eden yatay ekseni k notasyonu ile göstereceğiz.</br>
+### RC Devresinin Basamak Cevabı
 Şimdi, *Şekil 1*'de gördüğümüz üzere bir güç kaynağı, bir rezistör ve bir kapasitörden oluşan RC devresinin basamak cevabını<sup>2</sup> analiz edelim.
 
 <img src="şekiller/RC devresi basamak cevabı.jpg" alt="RC devresi" height="300"/>
@@ -67,20 +69,23 @@ Aşağıda grafiğini çizdireceğimiz kapasitörün üzerindeki voltajın matem
 *Şekil 2:* RC devresinin basamak cevabının V<sub>cc</sub> = 5V, V<sub>C</sub>(0) = 0V ve değişik R ve C değerlerine göre grafiği<sup>4</sup>.
 
 <img src="şekiller/RC_devresi_dogal_cevabı_grafik.png" alt="RC devresinin basamak cevabının değişik R ve C değerlerine göre çizdirilmiş hali" height="300"/>
+### RC Devresinin Doğal Cevabı
+*Şekil 2*'de görülen devreyi *Şekil 3*'deki gibi düşünebiliriz.
 
-*Şekil 3:* RC devresinin doğal cevabının V<sub>C</sub>(0) = 5V ve değişik R ve C değerlerine göre grafiği<sup>5</sup>. Anahtarlama ile *Şekil 2*'de kaldığı durumdan devam edilmiştir.
+
+*Şekil 4:* RC devresinin doğal cevabının V<sub>C</sub>(0) = 5V ve değişik R ve C değerlerine göre grafiği<sup>5</sup>. Anahtarlama ile *Şekil 2*'de kaldığı durumdan devam edilmiştir.
 
 <img src="şekiller/RL devresi basamak cevabı.jpg" alt="RL devresi." height="300"/>
 
-*Şekil 4:* RL devresi.
+*Şekil 5:* RL devresi.
 
 <img src="şekiller/RL_devresi_basamak_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
 
-*Şekil 5:* RL devresinin basamak cevabının V<sub>cc</sub> = 5V, i<sub>L</sub>(0) = 0A ve değişik R ve L değerlerine göre grafiği<sup>6</sup>.
+*Şekil 6:* RL devresinin basamak cevabının V<sub>cc</sub> = 5V, i<sub>L</sub>(0) = 0A ve değişik R ve L değerlerine göre grafiği<sup>6</sup>.
 
 <img src="şekiller/RL_devresi_dogal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
 
-*Şekil 6:* RL devresinin doğal cevabının i<sub>L</sub>(0) *Şekil 5*'de hangi değere oturduysa kaldığı yerden ve değişik R ve L değerlerine göre grafiği<sup>7</sup>.
+*Şekil 7:* RL devresinin doğal cevabının i<sub>L</sub>(0) *Şekil 5*'de hangi değere oturduysa kaldığı yerden ve değişik R ve L değerlerine göre grafiği<sup>7</sup>.
 ## Dipnotlar
 <sup>1</sup> İng. Dummy variable.</br>
 <sup>2</sup> İng. Step response. Basamak cevabı [1]'de geçen bir kavramdır. Aynı kaynağı referans kullanan [2], bu cevabı zorlanmış cevap diye isimlendirerek yaklaşımı daha genelleştirmiştir (i.e., güç kaynağından devreye etki eden sinyalin sadece sabit bir DC gerilim olma şartı yok). Biz burada [1]'de geçen haliyle kullanmayı uygun gördük.</br> 
