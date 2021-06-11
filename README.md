@@ -74,20 +74,19 @@ Aşağıda grafiğini çizdireceğimiz kapasitörün üzerindeki voltajın matem
 
 *Şekil 3:* RC devresinin anahtarlamalı hali.
 
-Zamanın başlangıcında **SW1** ile gösterilen ilk anahtarın kapanmasıyla V<sub>cc</sub> ile gösterilen güç kaynağından devrenin R ve C elemanlarına akım gelmeye başlıyor. Devrenin ortasında yer alan **SW2** anahtarı zamanın başında açık halde. Zaman t=2 saniye olduğu ana kadar devrenin basamak cevabı söz konusu. Zaman t=2s olduğu anda **SW1** açılıyor (yani artık üzerinden akım geçmiyor) ve **SW2** kapanıyor, böylece **Şekil 3**'de verilen anahtarlamalı devre **Şekil 4**'deki halini alıyor.
+Zamanın başlangıcında **SW1** ile gösterilen ilk anahtarın kapanmasıyla V<sub>cc</sub> ile gösterilen güç kaynağından devrenin R ve C elemanlarına akım gelmeye başlıyor. Devrenin ortasında yer alan **SW2** anahtarı zamanın başında açık halde. Zaman t=2 saniye olduğu ana kadar devrenin basamak cevabı söz konusu. Zaman t=2s olduğu anda **SW1** açılıyor (yani artık üzerinden akım geçmiyor) ve **SW2** kapanıyor, böylece *Şekil 3*'de verilen anahtarlamalı devre *Şekil 4*'deki halini alıyor.
 
 <img src="şekiller/RC devresi doğal cevabı.jpg" alt="RC devresinin doğal cevap devresi" height="300"/>
 
 *Şekil 4:* Yukarıda V<sub>cc</sub> ile gösterilen gerilim kaynağının anahtarlamalar vasıtasıyla dışarıda bırakılmasıyla oluşan RC devresi.
 
-Elde ettiğimiz devrenin t=2s'den t→∞ tepkisine RC devresinin doğal cevabı<sup>5</sup> deniyor.
+Elde ettiğimiz devrenin t=2s'den t→∞ tepkisine RC devresinin doğal cevabı<sup>5</sup> deniyor. RC devresinin doğla cevabının değişik R ve C değerlerine göre çizdirilmiş halini *Şekil 5*'de görebilirsiniz.
 
 <img src="şekiller/RC_devresi_dogal_cevabı_grafik.png" alt="RC devresinin basamak cevabının değişik R ve C değerlerine göre çizdirilmiş hali" height="300"/>
 
 *Şekil 5:* RC devresinin doğal cevabının V<sub>C</sub>(0) = 5V ve değişik R ve C değerlerine göre grafiği<sup>6</sup>.
 
-Burada yine kabaca uç değerlere bakarak analiz yapacak olursak...
-
+Burada yine kabaca uç değerlere bakarak analiz yapacak olursak V<sub>C</sub>(0) = V<sub>cc</sub> olarak başlamış. Dikkat edin, eğer RC devresinin ilk 2s'deki cevabında R ve/veya C değerleri yüksek değerler olsaydı, o zaman V<sub>C</sub>(0) değeri V<sub>cc</sub>'den daha düşük bir değer de olabilirdi. Devrede gerilim kaynağının çıkarılması ve **SW2** anahtırının kapanması ile kapasitör üzerinde deoplanmış enerji, direnç R üzerinden zaman sabiti tau = RC ile bağlantılı olarak tükeniyor ve böylece V<sub>C</sub>(t) zaman ilerlerken sıfırlanıyor.
 ## RL Devresi
 <img src="şekiller/RL devresi basamak cevabı.jpg" alt="RL devresi." height="300"/>
 
