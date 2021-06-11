@@ -67,13 +67,16 @@ Aşağıda grafiğini çizdireceğimiz kapasitörün üzerindeki voltajın matem
 <img src="şekiller/RC_devresi_basamak_cevabı_grafik.png" alt="RC devresinin basamak cevabının değişik R ve C değerlerine göre çizdirilmiş hali" height="300"/>
 
 *Şekil 2:* RC devresinin basamak cevabının V<sub>cc</sub> = 5V, V<sub>C</sub>(0) = 0V ve değişik R ve C değerlerine göre grafiği<sup>4</sup>.
+### RC Devresinin Doğal Cevabı
+*Şekil 1*'de verilen devre ve de *Şekil 2*'de alınan cevap *Şekil 3*'deki devrenin ilk 2 saniyesine tekabül etmektedir.
+
+<img src="şekiller/RC devresi anahtarlama.png" alt="RC devresinin anahtarlama ile basamak ve doğal cevabının üretilmesi" height="300"/>
+
+*Şekil 3:* RC devresinin anahtarlamalı hali.
 
 <img src="şekiller/RC_devresi_dogal_cevabı_grafik.png" alt="RC devresinin basamak cevabının değişik R ve C değerlerine göre çizdirilmiş hali" height="300"/>
-### RC Devresinin Doğal Cevabı
-*Şekil 2*'de görülen devreyi *Şekil 3*'deki gibi düşünebiliriz.
 
-
-*Şekil 4:* RC devresinin doğal cevabının V<sub>C</sub>(0) = 5V ve değişik R ve C değerlerine göre grafiği<sup>5</sup>. Anahtarlama ile *Şekil 2*'de kaldığı durumdan devam edilmiştir.
+*Şekil 4:* RC devresinin doğal cevabının V<sub>C</sub>(0) = 5V ve değişik R ve C değerlerine göre grafiği<sup>5</sup>.
 
 <img src="şekiller/RL devresi basamak cevabı.jpg" alt="RL devresi." height="300"/>
 
