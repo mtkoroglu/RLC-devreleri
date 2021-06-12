@@ -100,7 +100,7 @@ Burada yine kabaca uç değerlere bakarak analiz yapacak olursak V<sub>C</sub>(0
 
 *Şekil 8:* RL devresinin doğal cevabının i<sub>L</sub>(0) *Şekil 5*'de hangi değere oturduysa kaldığı yerden ve değişik R ve L değerlerine göre grafiği<sup>8</sup>.
 ## RLC Devrelerinin Analizi
-Yukarıda incelediğimiz devrelerde rezistörün yanında sadece bir kapasitör veya endüktör vardı. Elde ettiğimiz devre denklemleri birinci dereceden adi diferansiyel denklemler oldu. Şimdi ise aynı devrede hem kapasitör hem endüktör bulunması durumuna bakalım. Aşağıda az sonra göreceğiniz üzere, içinde iki tane enerji depolayabilen eleman bulunduruan bu devrelere RLC devresi denip matematiksel modelleri ikinci dereceden diferansiyel denklemlerdir.
+Yukarıda incelediğimiz devrelerde rezistörün yanında sadece bir kapasitör veya endüktör vardı. Elde ettiğimiz devre denklemleri birinci dereceden adi diferansiyel denklemler oldu. Şimdi ise aynı devrede hem kapasitör hem endüktör bulunması durumuna bakalım. Aşağıda az sonra göreceğiniz üzere, içinde iki tane enerji depolayabilen eleman bulunduran bu devrelere RLC devresi deniyor. Bu devrelerin matematiksel modelleri ikinci dereceden diferansiyel denklemlerle betimleniyor ve dolayısıyla çözümleri de yukarıdakinden farklılık arz ediyor. 
 ### Seri RLC Devresi
 
 ## Dipnotlar
