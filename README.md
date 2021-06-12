@@ -96,13 +96,15 @@ Burada yine kabaca uç değerlere bakarak analiz yapacak olursak V<sub>C</sub>(0
 
 *Şekil 7:* RL devresinin basamak cevabının V<sub>cc</sub> = 5V, i<sub>L</sub>(0) = 0A ve değişik R ve L değerlerine göre grafiği<sup>7</sup>.
 
-<img src="şekiller/RL_devresi_dogal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
+<img src="şekiller/RL_devresi_dogal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali"7 height="300"/>
 
 *Şekil 8:* RL devresinin doğal cevabının i<sub>L</sub>(0) *Şekil 5*'de hangi değere oturduysa kaldığı yerden ve değişik R ve L değerlerine göre grafiği<sup>8</sup>.
 ## RLC Devrelerinin Analizi
 Yukarıda incelediğimiz devrelerde rezistörün yanında sadece bir kapasitör veya endüktör vardı. Elde ettiğimiz devre denklemleri birinci dereceden adi diferansiyel denklemler oldu. Şimdi ise aynı devrede hem kapasitör hem endüktör bulunması durumuna bakalım. Aşağıda az sonra göreceğiniz üzere, içinde iki tane enerji depolayabilen eleman bulunduran bu devrelere RLC devresi deniyor. Bu devrelerin matematiksel modelleri ikinci dereceden diferansiyel denklemlerle betimleniyor ve dolayısıyla çözümleri de yukarıdakinden farklılık arz ediyor. 
 ### Seri RLC Devresi
+<img src="şekiller/seri RLC devresi basamak cevabı konfigürasyonu.png" alt="seri RLC devresi basamak cevabı konfigürasyonu" height="300"/>
 
+*Şekil 9:* RLC devresinin seri bağlanmış halinin gerilim kaynağına bağlı hali.
 ## Dipnotlar
 <sup>1</sup> İng. Dummy variable.</br>
 <sup>2</sup> İng. Step response. Basamak cevabı [1]'de geçen bir kavramdır. Aynı kaynağı referans kullanan [2], bu cevabı zorlanmış cevap diye isimlendirerek yaklaşımı daha genelleştirmiştir (i.e., güç kaynağından devreye etki eden sinyalin sadece sabit bir DC gerilim olma şartı yok). Biz burada [1]'de geçen haliyle kullanmayı uygun gördük.</br> 
