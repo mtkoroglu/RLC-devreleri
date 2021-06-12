@@ -101,6 +101,8 @@ Burada yine kabaca uç değerlere bakarak analiz yapacak olursak V<sub>C</sub>(0
 *Şekil 8:* RL devresinin doğal cevabının i<sub>L</sub>(0) *Şekil 5*'de hangi değere oturduysa kaldığı yerden ve değişik R ve L değerlerine göre grafiği<sup>8</sup>.
 ## RLC Devrelerinin Analizi
 Yukarıda incelediğimiz devrelerde rezistörün yanında sadece bir kapasitör veya endüktör vardı. Elde ettiğimiz devre denklemleri birinci dereceden adi diferansiyel denklemler oldu. Şimdi ise aynı devrede hem kapasitör hem endüktör bulunması durumuna bakalım. Aşağıda az sonra göreceğiniz üzere, içinde iki tane enerji depolayabilen eleman bulunduruan bu devrelere RLC devresi denip matematiksel modelleri ikinci dereceden diferansiyel denklemlerdir.
+### Seri RLC Devresi
+
 ## Dipnotlar
 <sup>1</sup> İng. Dummy variable.</br>
 <sup>2</sup> İng. Step response. Basamak cevabı [1]'de geçen bir kavramdır. Aynı kaynağı referans kullanan [2], bu cevabı zorlanmış cevap diye isimlendirerek yaklaşımı daha genelleştirmiştir (i.e., güç kaynağından devreye etki eden sinyalin sadece sabit bir DC gerilim olma şartı yok). Biz burada [1]'de geçen haliyle kullanmayı uygun gördük.</br> 
