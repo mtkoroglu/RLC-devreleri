@@ -1,7 +1,6 @@
 # RLC Devreleri (RLC Circuits)
 Bu sayfada kapasitör ve endüktör devre elemanlarını anlamaya çalışıp RC, RL ve RLC devrelerinin basamak (zorlanmış) ve doğal cevaplarına bakacağız.
-## RC devreleri
-### Kapasitörün Analitik Modeli
+## Kapasitör (veya Kondansatör veya Sığa)
 Kapasitörün matematiksel modeli
 
 <img src="eşitlikler/kapasitör denklemi.JPG" alt="kapasitör denklemi." height="50"/>
@@ -87,11 +86,26 @@ Elde ettiğimiz devrenin t=2s'den t→∞ tepkisine RC devresinin doğal cevabı
 *Şekil 5:* RC devresinin doğal cevabının V<sub>C</sub>(0) = 5V ve değişik R ve C değerlerine göre grafiği<sup>6</sup>.
 
 Burada yine kabaca uç değerlere bakarak analiz yapacak olursak V<sub>C</sub>(0) = V<sub>cc</sub> olarak başlamış. Dikkat edin, eğer RC devresinin ilk 2s'deki cevabında R ve/veya C değerleri yüksek değerler olsaydı, o zaman V<sub>C</sub>(0) değeri V<sub>cc</sub>'den daha düşük bir değer de olabilirdi. Devrede gerilim kaynağının çıkarılması ve **SW2** anahtırının kapanması ile kapasitör üzerinde deoplanmış enerji, direnç R üzerinden zaman sabiti tau = RC ile bağlantılı olarak tükeniyor ve böylece V<sub>C</sub>(t) zaman ilerlerken sıfırlanıyor.
-## RL Devresi
-<img src="şekiller/RL devresi basamak cevabı.jpg" alt="RL devresi." height="300"/>
+## Endüktör (veya Bobin)
+Endüktörün matematiksel modeli
+
+\begin{equation}
+V_L(t) = L\frac{di_L(t)}{dt}
+\end{equation}
+
+olarak veriliyor. Bu birinci dereceden adi diferansiyel denklemde eşitliğin her iki tarafının $k=t_0$ anından $k=t$ anına kadar integralini alırsak aşağıdaki çözümü elde ederiz.
+
+\begin{equation}
+i_L(t) = i_L(t_0) + \frac{1}{L} \int_{t_0}^{t} V_L(k)dk
+\end{equation}
+
+Buradaki $k$ isimli kukla değişkenin ne olduğunu derslerimizde ve yukarıda kapasitörün matematiksel modeline bakarken açıkladık.
+
+<img src="şekiller/RL devresi basamak cevabı.jpg" alt="RL devresi" height="300"/>
 
 *Şekil 6:* RL devresi.
 
+### RL Devresinin Basamak Cevabı
 <img src="şekiller/RL_devresi_basamak_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
 
 *Şekil 7:* RL devresinin basamak cevabının V<sub>cc</sub> = 5V, i<sub>L</sub>(0) = 0A ve değişik R ve L değerlerine göre grafiği<sup>7</sup>.
