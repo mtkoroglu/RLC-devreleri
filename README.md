@@ -106,7 +106,7 @@ Buradaki $k$ isimli kukla değişkenin ne olduğunu derslerimizde ve yukarıda k
 
 *Şekil 7:* RL devresinin basamak cevabının V<sub>cc</sub> = 5V, i<sub>L</sub>(0) = 0A ve değişik R ve L değerlerine göre grafiği<sup>7</sup>.
 
-<img src="şekiller/RL_devresi_dogal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali"7 height="300"/>
+<img src="şekiller/RL_devresi_dogal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
 
 *Şekil 8:* RL devresinin doğal cevabının i<sub>L</sub>(0) *Şekil 5*'de hangi değere oturduysa kaldığı yerden ve değişik R ve L değerlerine göre grafiği<sup>8</sup>.
 ## RLC Devrelerinin Analizi
@@ -118,7 +118,7 @@ Yukarıda incelediğimiz devrelerde rezistörün yanında sadece bir kapasitör 
 ## Dipnotlar
 <sup>1</sup> İng. Dummy variable.</br>
 <sup>2</sup> İng. Step response. Basamak cevabı [1]'de geçen bir kavramdır. Aynı kaynağı referans kullanan [2], bu cevabı zorlanmış cevap diye isimlendirerek yaklaşımı daha genelleştirmiştir (i.e., güç kaynağından devreye etki eden sinyalin sadece sabit bir DC gerilim olma şartı yok). Biz burada [1]'de geçen haliyle kullanmayı uygun gördük.</br> 
-<sup>3</sup> İng. Kirchoff's Voltage Law (KVL).
+<sup>3</sup> İng. Kirchoff's Voltage Law (KVL).</br>
 <sup>4</sup> Bu grafik **MATLAB**'da çizdirilmiştir. Siz de **MATLAB**'da çizdirmek için *kodlar* dizinindeki *RC_devresi_zorlanmis_cevap.m* programını koşturun.</br>
 <sup>5</sup> İng. Natural response.</br>
 <sup>6</sup> Bu grafik  **MATLAB** ile çizdirilmiştir. Siz de **MATLAB** ile çizdirmek için *kodlar* dizinindeki *RC_devresi_dogal_cevap.m* programını koşturun.</br>
