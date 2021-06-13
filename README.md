@@ -122,7 +122,7 @@ Devrede KVY uygulanırsa
 
 eşitliğini elde ederiz. Bu eşitlik, yukarıda verilen kapasitör ve endüktör modelleri yerlerinde kullanılır ve devrede i(t)=i<sub>L</sub>(t)=i<sub>C</sub>(t) olduğu da göz önünde bulundurulursa
 
-<img src="eşitlikler/RLC_KVL_manipulated.JPG" alt="seri RLC devresi KVY manipüle edilmiş hali" height="120"/>
+<img src="eşitlikler/RLC_KVL_manipulated.JPG" alt="seri RLC devresi KVY manipüle edilmiş hali" height="150"/>
 
 halini alır.
 ## Dipnotlar
