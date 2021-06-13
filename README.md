@@ -89,15 +89,11 @@ Burada yine kabaca uç değerlere bakarak analiz yapacak olursak V<sub>C</sub>(0
 ## Endüktör (veya Bobin)
 Endüktörün matematiksel modeli
 
-\begin{equation}
-V_L(t) = L\frac{di_L(t)}{dt}
-\end{equation}
+<img src="eşitlikler/endüktör denklemi.JPG" alt="kapasitör denklemi." height="50"/>
 
-olarak veriliyor. Bu birinci dereceden adi diferansiyel denklemde eşitliğin her iki tarafının $k=t_0$ anından $k=t$ anına kadar integralini alırsak aşağıdaki çözümü elde ederiz.
+olarak verilmişti. Bu birinci dereceden adi diferansiyel denklemde eşitliğin her iki tarafının k=t<sub>0</sub> anından k=t anına kadar integralini alırsak aşağıdaki çözümü elde ederiz.
 
-\begin{equation}
-i_L(t) = i_L(t_0) + \frac{1}{L} \int_{t_0}^{t} V_L(k)dk
-\end{equation}
+<img src="eşitlikler/endüktör denklemi çözümü.JPG" alt="kapasitör denklemi çözümü." height="55"/>
 
 Buradaki $k$ isimli kukla değişkenin ne olduğunu derslerimizde ve yukarıda kapasitörün matematiksel modeline bakarken açıkladık.
 
