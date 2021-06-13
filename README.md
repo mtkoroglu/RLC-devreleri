@@ -114,7 +114,17 @@ Yukarıda incelediğimiz devrelerde rezistörün yanında sadece bir kapasitör 
 ### Seri RLC Devresi
 <img src="şekiller/seri RLC devresi basamak cevabı konfigürasyonu.png" alt="seri RLC devresi basamak cevabı konfigürasyonu" height="300"/>
 
-*Şekil 9:* RLC devresinin seri bağlanmış halinin gerilim kaynağına bağlı hali.
+*Şekil 9:* RLC devresinin seri bağlanmış hali.
+
+Devrede KVY uygulanırsa
+
+<img src="eşitlikler/RLC_KVY.JPG" alt="seri RLC devresi KVY" height="45"/>
+
+eşitliğini elde ederiz. Bu eşitlik, yukarıda verilen kapasitör ve endüktör modelleri yerlerinde kullanılır ve devrede i(t)=i<sub>L</sub>(t)=i<sub>C</sub>(t) olduğu da göz önünde bulundurulursa
+
+<img src="eşitlikler/RLC_KVY_manipulated.JPG" alt="seri RLC devresi KVY manipüle edilmiş hali" height="80"/>
+
+halini alır.
 ## Dipnotlar
 <sup>1</sup> İng. Dummy variable.</br>
 <sup>2</sup> İng. Step response. Basamak cevabı [1]'de geçen bir kavramdır. Aynı kaynağı referans kullanan [2], bu cevabı zorlanmış cevap diye isimlendirerek yaklaşımı daha genelleştirmiştir (i.e., güç kaynağından devreye etki eden sinyalin sadece sabit bir DC gerilim olma şartı yok). Biz burada [1]'de geçen haliyle kullanmayı uygun gördük.</br> 
