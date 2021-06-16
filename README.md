@@ -143,6 +143,20 @@ Yukarıda RC ve RL devrelerinin basamak ve doğal cevaplarını analiz ederken e
 
 *Şekil 12:* RLC devresinde kalkülüs kullanarak diferansiyel denklemleri çözüp V<sub>C</sub>(t) ve i<sub>L</sub>(t) fonksiyonlarını analitik olarak elde edip çizdirmek yerine benzetiminin (simülasyon) yapılarak nümerik olarak V<sub>C</sub>(t) ve i<sub>L</sub>(t) fonksiyonlarının elde edilmesi.
 
+Yukarıda *Şekil 12*'de verilen benzetimi L=1H, C=0.01F ve R = [100, 50, 20, 15, 10, 5, 0] ohm değerleri için t=5s'ye kadar koşturduğumuzda aşağıda verilen *Şekil 13, 14, 15, 16, 17* ve *18*'i elde ettik. 
+
+<img src="şekiller/RLC_grafik_R_100.png" alt="RLC devresinin simülasyonu R=100, L=1, C=0.01" height="300"/>
+
+*Şekil 13:* R=100, L=1, C=0.01 değerleri için *Şekil 11*'de verilen seri RLC devresindeki kapasitör voltajı V<sub>C</sub>(t) ve endüktör akımı i<sub>L</sub>(t). R>20 için eksik sönümlü cevabı elde ettik.
+
+<img src="şekiller/RLC_grafik_R_100.png" alt="RLC devresinin simülasyonu R=100, L=1, C=0.01" height="300"/>
+
+*Şekil 14:* R=50, L=1, C=0.01 değerleri için *Şekil 11*'de verilen seri RLC devresindeki kapasitör voltajı V<sub>C</sub>(t) ve endüktör akımı i<sub>L</sub>(t). R>20 için eksik sönümlü cevabı elde ettik.
+
+<img src="şekiller/RLC_grafik_R_100.png" alt="RLC devresinin simülasyonu R=100, L=1, C=0.01" height="300"/>
+
+*Şekil 15:* R=20, L=1, C=0.01 değerleri için *Şekil 11*'de verilen seri RLC devresindeki kapasitör voltajı V<sub>C</sub>(t) ve endüktör akımı i<sub>L</sub>(t). R=20 için kritik sönümlü cevabı elde ettik.
+
 ## Dipnotlar
 <sup>1</sup> İng. Dummy variable.</br>
 <sup>2</sup> İng. Step response. Basamak cevabı [1]'de geçen bir kavramdır. Aynı kaynağı referans kullanan [2], bu cevabı zorlanmış cevap diye isimlendirerek yaklaşımı daha genelleştirmiştir (i.e., güç kaynağından devreye etki eden sinyalin sadece sabit bir DC gerilim olma şartı yok). Biz burada [1]'de geçen haliyle kullanmayı uygun gördük.</br> 
@@ -152,7 +166,8 @@ Yukarıda RC ve RL devrelerinin basamak ve doğal cevaplarını analiz ederken e
 <sup>6</sup> Bu grafik  **MATLAB** ile çizdirilmiştir. Siz de **MATLAB** ile çizdirmek için *kodlar* dizinindeki *RC_devresi_dogal_cevap.m* programını koşturun.</br>
 <sup>7</sup> Bu grafik **MATLAB**'da çizdirilmiştir. Siz de **MATLAB**'da çizdirmek için *kodlar* dizinindeki *RL_devresi_zorlanmis_cevap.m* programını koşturun.</br>
 <sup>8</sup> Bu grafik  **MATLAB** ile çizdirilmiştir. Siz de **MATLAB** ile çizdirmek için *kodlar* dizinindeki *RL_devresi_dogal_cevap.m* programını koşturun.</br>
-<sup>8</sup> Bu benzetimi *kodlar* dizininde RLC_devresi.mdl dosyasında görebilirsiniz. Benzetimi koşturmak için *init_RLC_devresi.m* programını koşturun.
+<sup>9</sup> Bu benzetimi *kodlar* dizininde *RLC_devresi.mdl* dosyasında görebilirsiniz. Benzetimi koşturmak için *init_RLC_devresi.m* programını koşturun.</br>
+<sup>10</sup> Bu grafik  **MATLAB** ile çizdirilmiştir. Siz de **MATLAB** ile çizdirmek için *kodlar* dizinindeki *init_RLC_devresi.m* programını koşturun.
 ## Referanslar
 [1] J. W. Nilsson, S. A. Riedel, *Electric Circuits*, 10. Baskı, Prentice Hall, Upper Saddle River, New Jersey, 2014.</br>
 [2] M. Ö. Efe, *Devre Analizi-I*, 3. Baskı, Seçkin Yayıncılık, 2016.
