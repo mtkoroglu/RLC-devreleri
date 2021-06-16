@@ -95,20 +95,32 @@ olarak verilmişti. Bu birinci dereceden adi diferansiyel denklemde eşitliğin 
 
 <img src="eşitlikler/endüktör denklemi çözümü.JPG" alt="kapasitör denklemi çözümü." height="55"/>
 
-Buradaki $k$ isimli kukla değişkenin ne olduğunu derslerimizde ve yukarıda kapasitörün matematiksel modeline bakarken açıkladık.
+Buradaki k isimli kukla değişkenin ne olduğunu derslerimizde ve yukarıda kapasitörün matematiksel modeline bakarken açıkladık.
+### RL Devresinin Basamak Cevabı
+Aşağıdaki grafikleri sonuç veren denklemler ve nasıl elde edildiklerini gösteren videolar DBS'de.
 
 <img src="şekiller/RL devresi basamak cevabı.jpg" alt="RL devresi" height="300"/>
 
-*Şekil 6:* RL devresi.
+*Şekil 6:* RL devresine güç kaynağının etki eden hali.
 
-### RL Devresinin Basamak Cevabı
 <img src="şekiller/RL_devresi_basamak_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
 
 *Şekil 7:* RL devresinin basamak cevabının V<sub>cc</sub> = 5V, i<sub>L</sub>(0) = 0A ve değişik R ve L değerlerine göre grafiği<sup>7</sup>.
 
+### RL Devresinin Doğal Cevabı
+Aşağıdaki grafikleri sonuç veren denklemler ve nasıl elde edildiklerini gösteren videolar DBS'de.
+
+<img src="şekiller/RL devresi anahtarlama.jpg" alt="RL devresi anahtarlama" height="300"/>
+
+*Şekil 8:* RL devresinde t=2s anında anahtarlama ile güç kaynağının etkisiz hale getirilmesi.
+
+<img src="şekiller/RL devresi doğal cevabı.jpg" alt="RL devresi doğal cevabın oluştuğu devre" height="300"/>
+
+*Şekil 9:* *Şekil 8*'de t=2s anından sonra devrenin almış olduğu hal. Devreden geçen akım grafiğine RL devresi doğal cevabı denir.
+
 <img src="şekiller/RL_devresi_dogal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
 
-*Şekil 8:* RL devresinin doğal cevabının i<sub>L</sub>(0) *Şekil 5*'de hangi değere oturduysa kaldığı yerden ve değişik R ve L değerlerine göre grafiği<sup>8</sup>.
+*Şekil 10:* RL devresinin doğal cevabının i<sub>L</sub>(0) *Şekil 5*'de hangi değere oturduysa kaldığı yerden ve değişik R ve L değerlerine göre grafiği<sup>8</sup>.
 ## RLC Devrelerinin Analizi
 Yukarıda incelediğimiz devrelerde rezistörün yanında sadece bir kapasitör veya endüktör vardı. Elde ettiğimiz devre denklemleri birinci dereceden adi diferansiyel denklemler oldu. Şimdi ise aynı devrede hem kapasitör hem endüktör bulunması durumuna bakalım. Aşağıda az sonra göreceğiniz üzere, içinde iki tane enerji depolayabilen eleman bulunduran bu devrelere RLC devresi deniyor. Bu devrelerin matematiksel modelleri ikinci dereceden diferansiyel denklemlerle betimleniyor ve dolayısıyla çözümleri de yukarıdakinden farklılık arz ediyor. 
 ### Seri RLC Devresi
@@ -116,7 +128,7 @@ Yukarıda incelediğimiz devrelerde rezistörün yanında sadece bir kapasitör 
 
 *Şekil 9:* RLC devresinin seri bağlanmış hali.
 
-Devrede KVY uygulanırsa
+Devrede KGY uygulanırsa
 
 <img src="eşitlikler/RLC_KVL.JPG" alt="seri RLC devresi KVY" height="35"/>
 
