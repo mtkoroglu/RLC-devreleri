@@ -139,7 +139,7 @@ halini alır. Bu diferansiyel denklemin çözümünde iki adet başlangıç koş
 
 Yukarıda RC ve RL devrelerinin basamak ve doğal cevaplarını analiz ederken elde ettiğimiz grafiklerin matematiksel (yani formüllerle veya analitik) ifadelerini birinci dereceden diferansiyel denklemleri Kalkülüs bilgilerimizi kullanarak elde etmiştik. Burada ise, kapalı form çözümü için çözüm adayı ifadeler önerip başlangıç koşullarından faydalanarak önerilen çözümlerin katsayılarını hesaplayıp çözümün tam ifadesine ulaşabiliriz. Bununla beraber kapasitör voltajı ve endüktör akımı grafiklerine bakmak istersek, elimizdeki ikinci dereceden dinamik ifadeyi *Şekil 11*'de görüldüğü gibi nümerik olarak koşturabiliriz.<sup>9</sup>
 
-<img src="şekiller/RLC_devresi.JPG" alt="RLC devresi simülasyonu" height="300"/>
+<img src="şekiller/RLC_devresi_benzetim.JPG" alt="RLC devresi simülasyonu" height="300"/>
 
 *Şekil 12:* RLC devresinde kalkülüs kullanarak diferansiyel denklemleri çözüp V<sub>C</sub>(t) ve i<sub>L</sub>(t) fonksiyonlarını analitik olarak elde edip çizdirmek yerine benzetiminin (simülasyon) yapılarak nümerik olarak V<sub>C</sub>(t) ve i<sub>L</sub>(t) fonksiyonlarının elde edilmesi.
 
