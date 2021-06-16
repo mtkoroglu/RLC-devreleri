@@ -125,7 +125,7 @@ Yukarıda incelediğimiz devrelerde rezistörün yanında sadece bir kapasitör 
 ### Seri RLC Devresi
 <img src="şekiller/seri RLC devresi basamak cevabı konfigürasyonu.png" alt="seri RLC devresi basamak cevabı konfigürasyonu" height="300"/>
 
-*Şekil 9:* RLC devresinin seri bağlanmış hali.
+*Şekil 11:* RLC devresinin seri bağlanmış hali.
 
 Devrede KGY uygulanırsa
 
@@ -136,6 +136,13 @@ eşitliğini elde ederiz. Bu eşitlik, yukarıda verilen kapasitör ve endüktö
 <img src="eşitlikler/RLC_KVL_manipulated.JPG" alt="seri RLC devresi KVY manipüle edilmiş hali" height="180"/>
 
 halini alır. Bu diferansiyel denklemin çözümünde iki adet başlangıç koşulu söz konusu: Kapasitörün t=0s anındaki voltaj değeri olan V<sub>C</sub>(0) ve endüktörün t=0s anındaki akım değeri olan i<sub>L</sub>(0).
+
+Yukarıda RC ve RL devrelerinin basamak ve doğal cevaplarını analiz ederken elde ettiğimiz grafiklerin matematiksel (yani formüllerle veya analitik) ifadelerini birinci dereceden diferansiyel denklemleri Kalkülüs bilgilerimizi kullanarak elde etmiştik. Burada ise, kapalı form çözümü için çözüm adayı ifadeler önerip başlangıç koşullarından faydalanarak önerilen çözümlerin katsayılarını hesaplayıp çözümün tam ifadesine ulaşabiliriz. Bununla beraber kapasitör voltajı ve endüktör akımı grafiklerine bakmak istersek, elimizdeki ikinci dereceden dinamik ifadeyi *Şekil 11*'de görüldüğü gibi nümerik olarak koşturabiliriz.<sup>9</sup>
+
+<img src="şekiller/RLC_devresi.JPG" alt="RLC devresi simülasyonu" height="300"/>
+
+*Şekil 12:* RLC devresinde kalkülüs kullanarak diferansiyel denklemleri çözüp V<sub>C</sub>(t) ve i<sub>L</sub>(t) fonksiyonlarını analitik olarak elde edip çizdirmek yerine benzetiminin (simülasyon) yapılarak nümerik olarak V<sub>C</sub>(t) ve i<sub>L</sub>(t) fonksiyonlarının elde edilmesi.
+
 ## Dipnotlar
 <sup>1</sup> İng. Dummy variable.</br>
 <sup>2</sup> İng. Step response. Basamak cevabı [1]'de geçen bir kavramdır. Aynı kaynağı referans kullanan [2], bu cevabı zorlanmış cevap diye isimlendirerek yaklaşımı daha genelleştirmiştir (i.e., güç kaynağından devreye etki eden sinyalin sadece sabit bir DC gerilim olma şartı yok). Biz burada [1]'de geçen haliyle kullanmayı uygun gördük.</br> 
@@ -144,7 +151,8 @@ halini alır. Bu diferansiyel denklemin çözümünde iki adet başlangıç koş
 <sup>5</sup> İng. Natural response.</br>
 <sup>6</sup> Bu grafik  **MATLAB** ile çizdirilmiştir. Siz de **MATLAB** ile çizdirmek için *kodlar* dizinindeki *RC_devresi_dogal_cevap.m* programını koşturun.</br>
 <sup>7</sup> Bu grafik **MATLAB**'da çizdirilmiştir. Siz de **MATLAB**'da çizdirmek için *kodlar* dizinindeki *RL_devresi_zorlanmis_cevap.m* programını koşturun.</br>
-<sup>8</sup> Bu grafik  **MATLAB** ile çizdirilmiştir. Siz de **MATLAB** ile çizdirmek için *kodlar* dizinindeki *RL_devresi_dogal_cevap.m* programını koşturun.
+<sup>8</sup> Bu grafik  **MATLAB** ile çizdirilmiştir. Siz de **MATLAB** ile çizdirmek için *kodlar* dizinindeki *RL_devresi_dogal_cevap.m* programını koşturun.</br>
+<sup>8</sup> Bu benzetimi *kodlar* dizininde RLC_devresi.mdl dosyasında görebilirsiniz. Benzetimi koşturmak için *init_RLC_devresi.m* programını koşturun.
 ## Referanslar
 [1] J. W. Nilsson, S. A. Riedel, *Electric Circuits*, 10. Baskı, Prentice Hall, Upper Saddle River, New Jersey, 2014.</br>
 [2] M. Ö. Efe, *Devre Analizi-I*, 3. Baskı, Seçkin Yayıncılık, 2016.
