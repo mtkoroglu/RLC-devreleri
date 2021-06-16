@@ -11,7 +11,7 @@ olarak verilmişti. Bu birinci dereceden adi diferansiyel denklemde eşitliğin 
 
 Buradaki k denilen kukla değişkene<sup>1</sup> derslerimizde τ demiştik. Aşağıda zaman sabiti (time constant) kavramı karşımıza çıktığında zaman sabitine τ diyeceğimizden, bundan sonra karışıklık olmasın diye integral alırken zamanı temsil eden yatay ekseni k notasyonu ile göstereceğiz.</br>
 ### RC Devresinin Basamak Cevabı
-Şimdi, *Şekil 1*'de gördüğümüz üzere bir güç kaynağı, bir rezistör ve bir kapasitörden oluşan RC devresinin basamak cevabını<sup>2</> analiz edelim.
+Şimdi, *Şekil 1*'de gördüğümüz üzere bir güç kaynağı, bir rezistör ve bir kapasitörden oluşan RC devresinin basamak cevabını<sup>2</sup> analiz edelim.
 
 <img src="şekiller/RC devresi basamak cevabı.jpg" alt="RC devresi" height="300"/>
 
