@@ -153,7 +153,7 @@ elde edilir. Bu ifadedeki Δ>0, Δ=0 ve Δ<0 durumları için V<sub>C</sub>(t) v
 
 olur ki bu durumda Δ>0 olması için R>20, Δ=0 olması için R=20 ve de Δ<0 olması için R<20 olması gerektiği açıktır.
 ### Analitik Çözüm yerine Nümerik Çözüme Bakalım
-Yukarıda RC ve RL devrelerinin basamak ve doğal cevaplarını analiz ederken elde ettiğimiz grafiklerin matematiksel (yani formüllerle veya analitik) ifadelerini birinci dereceden diferansiyel denklemleri Kalkülüs bilgilerimizi kullanarak elde etmiştik. Burada ise, kapalı form çözümü için çözüm adayı ifadeler önerip başlangıç koşullarından faydalanarak önerilen çözümlerin katsayılarını hesaplayıp çözümün tam ifadesine ulaşabiliriz. Bununla beraber, kapasitör voltajı ve endüktör akımı grafiklerine daha kolay bir yoldan bakmak istersek, elimizdeki ikinci dereceden dinamik ifadeyi *Şekil 11*'de görüldüğü gibi nümerik olarak da koşturabiliriz.<sup>9</sup>
+Yukarıda RC ve RL devrelerinin basamak ve doğal cevaplarını analiz ederken elde ettiğimiz grafiklerin matematiksel ifadelerini, birinci dereceden diferansiyel denklemleri Kalkülüs bilgilerimizi kullanarak çözerek elde etmiştik. Burada ise, kapalı form çözümü (closed form solution) için çözüm adayı ifadeler önerip başlangıç koşullarından faydalanarak önerilen çözümlerin katsayılarını hesaplayıp çözümün tam ifadesine ulaşabiliriz. Bununla beraber, kapasitör voltajı ve endüktör akımı grafiklerine daha kolay bir yoldan bakmak istersek, elimizdeki ikinci dereceden dinamik ifadeyi *Şekil 11*'de görüldüğü gibi nümerik olarak da koşturabiliriz.<sup>9</sup>
 
 <img src="şekiller/RLC_devresi_benzetim.JPG" alt="RLC devresi simülasyonu" height="300"/>
 
