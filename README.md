@@ -145,18 +145,33 @@ Yukarıda RC ve RL devrelerinin basamak ve doğal cevaplarını analiz ederken e
 
 Yukarıda *Şekil 12*'de verilen benzetimi L=1H, C=0.01F ve R = [100, 50, 20, 15, 10, 5, 0] ohm değerleri için t=5s'ye kadar koşturduğumuzda aşağıda verilen *Şekil 13, 14, 15, 16, 17* ve *18*'i elde ettik. 
 
-<img src="şekiller/RLC_grafik_R_100.png" alt="RLC devresinin simülasyonu R=100, L=1, C=0.01" height="300"/>
+<img src="şekiller/RLC_grafik_R_100.png" alt="RLC devresinin simülasyonu R=100, L=1, C=0.01" height="200"/>
 
-*Şekil 13:* R=100, L=1, C=0.01 değerleri için *Şekil 11*'de verilen seri RLC devresindeki kapasitör voltajı V<sub>C</sub>(t) ve endüktör akımı i<sub>L</sub>(t). R>20 için eksik sönümlü cevabı elde ettik.
+*Şekil 13:* R=100, L=1, C=0.01 değerleri için *Şekil 11*'de verilen seri RLC devresindeki kapasitör voltajı V<sub>C</sub>(t) ve endüktör akımı i<sub>L</sub>(t). R>20 için aşırı sönümlü cevabı elde ettik.
 
-<img src="şekiller/RLC_grafik_R_100.png" alt="RLC devresinin simülasyonu R=100, L=1, C=0.01" height="300"/>
+<img src="şekiller/RLC_grafik_R_50.png" alt="RLC devresinin simülasyonu R=50, L=1, C=0.01" height="200"/>
 
-*Şekil 14:* R=50, L=1, C=0.01 değerleri için *Şekil 11*'de verilen seri RLC devresindeki kapasitör voltajı V<sub>C</sub>(t) ve endüktör akımı i<sub>L</sub>(t). R>20 için eksik sönümlü cevabı elde ettik.
+*Şekil 14:* R=50, L=1, C=0.01 değerleri için *Şekil 11*'de verilen seri RLC devresindeki kapasitör voltajı V<sub>C</sub>(t) ve endüktör akımı i<sub>L</sub>(t). R>20 için aşırı sönümlü cevabı elde ettik.
 
-<img src="şekiller/RLC_grafik_R_100.png" alt="RLC devresinin simülasyonu R=100, L=1, C=0.01" height="300"/>
+<img src="şekiller/RLC_grafik_R_20.png" alt="RLC devresinin simülasyonu R=20, L=1, C=0.01" height="200"/>
 
 *Şekil 15:* R=20, L=1, C=0.01 değerleri için *Şekil 11*'de verilen seri RLC devresindeki kapasitör voltajı V<sub>C</sub>(t) ve endüktör akımı i<sub>L</sub>(t). R=20 için kritik sönümlü cevabı elde ettik.
 
+<img src="şekiller/RLC_grafik_R_15.png" alt="RLC devresinin simülasyonu R=15, L=1, C=0.01" height="200"/>
+
+*Şekil 16:* R=15, L=1, C=0.01 değerleri için *Şekil 11*'de verilen seri RLC devresindeki kapasitör voltajı V<sub>C</sub>(t) ve endüktör akımı i<sub>L</sub>(t). R=15 için eksik sönümlü cevabı elde ettik.
+
+<img src="şekiller/RLC_grafik_R_10.png" alt="RLC devresinin simülasyonu R=10, L=1, C=0.01" height="200"/>
+
+*Şekil 17:* R=10, L=1, C=0.01 değerleri için *Şekil 11*'de verilen seri RLC devresindeki kapasitör voltajı V<sub>C</sub>(t) ve endüktör akımı i<sub>L</sub>(t). R=10 için eksik sönümlü cevabı elde ettik.
+
+<img src="şekiller/RLC_grafik_R_5.png" alt="RLC devresinin simülasyonu R=5, L=1, C=0.01" height="200"/>
+
+*Şekil 18:* R=5, L=1, C=0.01 değerleri için *Şekil 11*'de verilen seri RLC devresindeki kapasitör voltajı V<sub>C</sub>(t) ve endüktör akımı i<sub>L</sub>(t). R=5 için eksik sönümlü cevabı elde ettik.
+
+<img src="şekiller/RLC_grafik_R_0.png" alt="RLC devresinin simülasyonu R=0, L=1, C=0.01" height="200"/>
+
+*Şekil 19:* R=0, L=1, C=0.01 değerleri için *Şekil 11*'de verilen seri RLC devresindeki kapasitör voltajı V<sub>C</sub>(t) ve endüktör akımı i<sub>L</sub>(t). R=0 için sönümsüz cevabı elde ettik.
 ## Dipnotlar
 <sup>1</sup> İng. Dummy variable.</br>
 <sup>2</sup> İng. Step response. Basamak cevabı [1]'de geçen bir kavramdır. Aynı kaynağı referans kullanan [2], bu cevabı zorlanmış cevap diye isimlendirerek yaklaşımı daha genelleştirmiştir (i.e., güç kaynağından devreye etki eden sinyalin sadece sabit bir DC gerilim olma şartı yok). Biz burada [1]'de geçen haliyle kullanmayı uygun gördük.</br> 
