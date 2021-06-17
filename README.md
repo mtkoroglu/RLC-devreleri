@@ -139,7 +139,7 @@ halini alır. Dikkat edin, bu diferansiyel denklemin çözümünde iki adet baş
 
 <img src="eşitlikler/RLC_karakteristik_denklem.JPG" alt="seri RLC devresi karakteristik denklem" height="40"/>
 
-sonucunu elde deriz. RLC devresinde kapasitör voltajı ve endüktör akımının davranışını betimleyen faktör Δ olarak bilinen 
+sonucunu elde deriz. Bu ifadeye göre RLC devresinde kapasitör voltajı ve endüktör akımının davranışını betimleyen faktör Δ olarak bilinen 
 
 Δ=b<sup>2</sup>-4ac
 
@@ -147,13 +147,13 @@ parametresi olur. Burada a=1, b=R/L ve c=1/LC yerlerine konarsa
 
 <img src="eşitlikler/Delta.JPG" alt="seri RLC devresi karakteristik denklem" height="40"/>
 
-elde edilir. Bu ifadenin Δ>0, Δ=0 ve Δ<0 durumları için V<sub>C</sub>(t) ve i<sub>L</sub>(t) sinyalleri farklı davranışlar (i.e., aşırı sönümlü, kritik sönümlü, eksik sönümlü veya sönümsüz) ortaya koyar. *Şekil 11*'deki devrede L ve C değerlerini sabit tutup değişen R değerleri için cevabı analiz etmek istiyoruz. Endüktör değerini L=1H, kapasitör değerini C=0.01F olarak sabitlersek, o zaman 
+elde edilir. Bu ifadedeki Δ>0, Δ=0 ve Δ<0 durumları için V<sub>C</sub>(t) ve i<sub>L</sub>(t) sinyalleri farklı davranışlar (i.e., aşırı sönümlü, kritik sönümlü, eksik sönümlü veya sönümsüz) ortaya koyar. Biz *Şekil 11*'deki devrede L ve C değerlerini sabit tutup değişen R değerleri için cevabı analiz etmek istiyoruz. Endüktör değerini L=1H, kapasitör değerini C=0.01F olarak sabitlersek, o zaman 
 
 Δ=R<sup>2</sup>-400
 
-olur. Bu durumda Δ>0 olması için R>20, Δ=0 olması için R=20 ve de Δ<0 olması için R<20 olması gerektiğini görürüz.
+olur ki bu durumda Δ>0 olması için R>20, Δ=0 olması için R=20 ve de Δ<0 olması için R<20 olması gerektiği açıktır.
 ### Analitik Çözüm yerine Nümerik Çözüme Bakalım
-Yukarıda RC ve RL devrelerinin basamak ve doğal cevaplarını analiz ederken elde ettiğimiz grafiklerin matematiksel (yani formüllerle veya analitik) ifadelerini birinci dereceden diferansiyel denklemleri Kalkülüs bilgilerimizi kullanarak elde etmiştik. Burada ise, kapalı form çözümü için çözüm adayı ifadeler önerip başlangıç koşullarından faydalanarak önerilen çözümlerin katsayılarını hesaplayıp çözümün tam ifadesine ulaşabiliriz. Bununla beraber kapasitör voltajı ve endüktör akımı grafiklerine daha kolay bir yoldan bakmak istersek, elimizdeki ikinci dereceden dinamik ifadeyi *Şekil 11*'de görüldüğü gibi nümerik olarak da koşturabiliriz.<sup>9</sup>
+Yukarıda RC ve RL devrelerinin basamak ve doğal cevaplarını analiz ederken elde ettiğimiz grafiklerin matematiksel (yani formüllerle veya analitik) ifadelerini birinci dereceden diferansiyel denklemleri Kalkülüs bilgilerimizi kullanarak elde etmiştik. Burada ise, kapalı form çözümü için çözüm adayı ifadeler önerip başlangıç koşullarından faydalanarak önerilen çözümlerin katsayılarını hesaplayıp çözümün tam ifadesine ulaşabiliriz. Bununla beraber, kapasitör voltajı ve endüktör akımı grafiklerine daha kolay bir yoldan bakmak istersek, elimizdeki ikinci dereceden dinamik ifadeyi *Şekil 11*'de görüldüğü gibi nümerik olarak da koşturabiliriz.<sup>9</sup>
 
 <img src="şekiller/RLC_devresi_benzetim.JPG" alt="RLC devresi simülasyonu" height="300"/>
 
