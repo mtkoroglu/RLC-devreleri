@@ -139,7 +139,7 @@ halini alır. Dikkat edin, bu diferansiyel denklemin çözümünde iki adet baş
 
 <img src="eşitlikler/RLC_karakteristik_denklem.JPG" alt="seri RLC devresi karakteristik denklem" height="40"/>
 
-sonucunu elde deriz. Bu ifadeye göre RLC devresinde kapasitör voltajı ve endüktör akımının davranışını betimleyen faktör Δ olarak bilinen 
+karakteristik denklemini elde deriz. Bu ifadeye göre RLC devresinde kapasitör voltajı ve endüktör akımının davranışını belirleyen faktör Δ olarak bilinen 
 
 Δ=b<sup>2</sup>-4ac
 
