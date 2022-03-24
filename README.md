@@ -103,9 +103,9 @@ Aşağıdaki grafikleri sonuç veren denklemler ve nasıl elde edildiklerini gö
 
 *Şekil 6:* RL devresine güç kaynağının etki eden hali.
 
-<img src="şekiller/RL_devresi_basamak_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
+<img src="şekiller/RL_devresi_basamak_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="400"/>
 
-*Şekil 7:* RL devresinin basamak cevabının V<sub>cc</sub> = 5V, i<sub>L</sub>(0) = 0A ve değişik R ve L değerlerine göre grafiği<sup>7</sup>.
+*Şekil 7:* RL devresinin basamak cevabının V<sub>cc</sub> = 5V, i<sub>L</sub>(0) = 0A ve değişik R ve L değerlerine göre çizdirilmiş grafiği<sup>7</sup>.
 ### RL Devresinin Doğal Cevabı
 Aşağıdaki grafikleri sonuç veren denklemler ve nasıl elde edildiklerini gösteren videolar DBS'de.
 
