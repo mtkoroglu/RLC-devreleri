@@ -1,21 +1,21 @@
 # RLC Devreleri (RLC Circuits)
-Bu sayfada kapasitör ve endüktör devre elemanlarını anlamaya çalışıp RC, RL ve RLC devrelerinin basamak (zorlanmış) ve doğal cevaplarına bakacağız.
+Bu sayfada devre elemanlarından **kapasitör** ve **endüktör**'ü anlamaya çalışıp RC, RL ve RLC devrelerinin zorlanmış (basamak) ve doğal cevaplarına bakacağız.
 ## Kapasitör (veya Kondansatör veya Sığa)
 Kapasitörün matematiksel modeli
 
-<img src="eşitlikler/kapasitör denklemi.JPG" alt="kapasitör denklemi." height="50"/>
+<img src="eşitlikler/kapasitör denklemi.JPG" alt="kapasitör denklemi" height="50"/>
 
-olarak verilmişti. Bu birinci dereceden adi diferansiyel denklemde eşitliğin her iki tarafının k=t<sub>0</sub> anından k=t anına kadar integralini alırsak aşağıdaki çözümü elde ederiz.
+olarak verilmişti. Bu birinci dereceden âdi diferansiyel denklemde eşitliğin her iki tarafının k=t<sub>0</sub> anından k=t anına kadar integralini alırsak aşağıdaki ifadeyi elde ederiz.
 
-<img src="eşitlikler/kapasitör denklemi çözümü.JPG" alt="kapasitör denklemi çözümü." height="55"/>
+<img src="eşitlikler/kapasitör denklemi çözümü.JPG" alt="kapasitör denklemi çözümü" height="55"/>
 
-Buradaki k denilen kukla değişkene<sup>1</sup> derslerimizde τ demiştik. Aşağıda zaman sabiti (time constant) kavramı karşımıza çıktığında zaman sabitine τ diyeceğimizden, bundan sonra karışıklık olmasın diye integral alırken zamanı temsil eden yatay ekseni k notasyonu ile göstereceğiz.</br>
-### RC Devresinin Basamak Cevabı
-Şimdi, *Şekil 1*'de gördüğümüz üzere bir güç kaynağı, bir rezistör ve bir kapasitörden oluşan RC devresinin basamak cevabını<sup>2</sup> analiz edelim.
+Normalde zamanı temsil eden yatay eksen değişkenine t dememize rağmen burada t artık belirli bir anı temsil ettiğinden dolayı k dedik. Bu k değişkeni kukla değişken<sup>1</sup> olarak bilinir.</br>
+### RC Devresinin Zorlanmış (Basamak) Cevabı
+Şimdi, *Şekil 1*'de gördüğümüz üzere güç kaynağı, rezistör ve kapasitörden oluşan RC devresinin basamak cevabını<sup>2</sup> analiz edelim.
 
 <img src="şekiller/RC devresi basamak cevabı.jpg" alt="RC devresi" height="300"/>
 
-*Şekil 1:* RC devresi.
+*Şekil 1:* Güç kaynağına bağlı seri bir RC devresi.
 
 *Şekil 1*'de gösterilen devrede ok yönünde dolaşırken Kirchoff'un Gerilimler Yasasını<sup>3</sup> (KGY) uygularsak aşağıdaki eşitliği elde ederiz.
 
@@ -59,9 +59,9 @@ Genelde t<sub>0</sub>=0 olarak kabul ettiğimizden elde ettiğimiz çözüm aşa
 
 <img src="eşitlikler/KGY_sonucu_9.JPG" alt="KGY sonucu elde edilen eşitliğin düzenlenmiş ve manipüle edilmiş hali" height="50"/>
 
-Aşağıda grafiğini çizdireceğimiz kapasitörün üzerindeki voltajın matematiksel ifadesi olan bu ifade hakkında uç (ekstrem) değerlere bakarak düşünecek olursak t=0 anında V<sub>C</sub>(0)=V<sub>C</sub>(0) ve t→∞ durumunda V<sub>C</sub>(∞)=V<sub>cc</sub> olduğunu görebiliriz. Ayrıca zaman sabitimiz olan τ = RC arttıkça V<sub>C</sub>(t)'nin V<sub>cc</sub>'ye ulaşması yavaşlarken τ azalırken V<sub>C</sub>(t)'nin V<sub>cc</sub>'ye ulaşması hızlanır.
+Kapasitörün üzerindeki voltajın analitik çözümü olan bu ifadenin uç (ekstrem) değerlerini düşünecek olursak: t=0 anında V<sub>C</sub>(0)=V<sub>C</sub>(0) ve t→∞ durumunda V<sub>C</sub>(∞)=V<sub>cc</sub> olduğunu görebiliriz. Yani zaman ilerledikçe kapasitör voltajı er ya da geç V<sub>cc</sub>'ye oturuyor. Burada V<sub>C</sub>(0)'nin V<sub>cc</sub>'ye ulaşma hızını belirleyen zaman sabiti olarak bilinen τ = RC değeri. Zaman sabiti büyüdükçe V<sub>C</sub>(t)'nin V<sub>cc</sub>'ye ulaşması yavaşlarken küçüldükçe de V<sub>C</sub>(t)'nin V<sub>cc</sub>'ye ulaşması hızlanır.
 
-Şimdi elde ettiğimiz çözümün değişik R ve C değerlerine göre grafiklerini çizdirelim ve zaman sabitinin kapasitörün voltajına olan etkisini görelim.
+Şimdi elde ettiğimiz çözümün değişik R ve C değerlerine göre grafiklerini çizdirelim ve zaman sabiti τ = RC'nin kapasitörün voltajına olan etkisini görelim.
 
 <img src="şekiller/RC_devresi_basamak_cevabı_grafik.png" alt="RC devresinin basamak cevabının değişik R ve C değerlerine göre çizdirilmiş hali" height="300"/>
 
