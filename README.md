@@ -69,7 +69,7 @@ Kapasitörün üzerindeki voltajın analitik çözümü olan bu ifadenin uç (ek
 
 <img src="şekiller/RC_circuit_step_response.gif" alt="RC devresinin basamak cevabının değişik R ve C değerlerine göre çizdirilmiş animasyonu" height="300"/>
 
-*Şekil 3:* RC devresinin basamak cevabının V<sub>cc</sub> = 5V, V<sub>C</sub>(0) = 0V ve değişik R ve C değerlerine göre çizdirilen animasyonu.<sup>4</sup>.
+*Şekil 3:* RC devresinin basamak cevabının V<sub>cc</sub> = 5V, V<sub>C</sub>(0) = 0V ve değişik R ve C değerlerine göre çizdirilen animasyonu<sup>4</sup>.
 
 ### RC Devresinin Doğal Cevabı
 *Şekil 1*'de verilen devre ve de *Şekil 2*'de alınan cevap *Şekil 4*'deki devrenin t=0'dan t=2'ye kadar olan haline (yani ilk 2 saniyesine) tekabül etmektedir.
