@@ -17,7 +17,7 @@ Normalde zamanı temsil eden yatay eksen değişkenine t dememize rağmen burada
 
 *Şekil 1:* Güç kaynağına bağlı seri bir RC devresi.
 
-*Şekil 1*'de gösterilen devrede ok yönünde dolaşırken Kirchoff'un Gerilimler Yasasını<sup>3</sup> (KGY) uygularsak aşağıdaki eşitliği elde ederiz.
+Yukarıdaki devrede ok yönünde dolaşırken Kirchoff'un Gerilimler Yasasını<sup>3</sup> (KGY) uygularsak aşağıdaki eşitliği elde ederiz.
 
 -V<sub>cc</sub> + Ri(t) + V<sub>C</sub>(t) = 0
 
