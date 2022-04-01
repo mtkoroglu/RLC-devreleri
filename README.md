@@ -63,11 +63,11 @@ Kapasitörün üzerindeki voltajın analitik çözümü olan bu ifadenin uç (ek
 
 Şimdi elde ettiğimiz çözümün değişik R ve C değerlerine göre grafiklerini çizdirelim ve zaman sabiti τ = RC'nin kapasitörün voltajına olan etkisini görelim.
 
-<img src="şekiller/RC_devresi_basamak_cevabı_grafik.png" alt="RC devresinin basamak cevabının değişik R ve C değerlerine göre çizdirilmiş grafiği" height="300"/>
+<img src="şekiller/RC_devresi_basamak_cevabı_grafik.png" alt="RC devresinin basamak cevabının değişik R ve C değerlerine göre çizdirilmiş grafiği" height="450"/>
 
 *Şekil 2:* RC devresinin basamak cevabının V<sub>cc</sub> = 5V, V<sub>C</sub>(0) = 0V ve değişik R ve C değerlerine göre çizdirilen grafiği<sup>4</sup>.
 
-<img src="şekiller/RC_circuit_step_response.gif" alt="RC devresinin basamak cevabının değişik R ve C değerlerine göre çizdirilmiş animasyonu" height="300"/>
+<img src="şekiller/RC_circuit_step_response.gif" alt="RC devresinin basamak cevabının değişik R ve C değerlerine göre çizdirilmiş animasyonu" height="450"/>
 
 *Şekil 3:* RC devresinin basamak cevabının V<sub>cc</sub> = 5V, V<sub>C</sub>(0) = 0V ve değişik R ve C değerlerine göre çizdirilen animasyonu<sup>4</sup>.
 
