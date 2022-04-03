@@ -86,11 +86,11 @@ Zamanın başlangıcında **SW1** ile gösterilen ilk anahtarın kapanmasıyla V
 
 Devrede ok yönünde dolaşıp Kirchoff'un Gerilimler Yasasını (KGY) uygularsak elde edeceğimiz denklem aşağıdaki gibi olur.
 
-<img src="eşitlikler/RC devresi doğal cevabı 1.jpg" alt="RC devresinin doğal cevabı denklem 1" height="50"/>
+<img src="eşitlikler/RC devresi doğal cevabı 1.jpg" alt="RC devresinin doğal cevabı denklem 1" height="40"/>
 
 Devrede kapasitörün depoladığı enerjinin boşalmaya başlamasıyla oluşan akım i(t) kapasitörün üzerinden geçen akım i<sub>C</sub>(t)'ye ters yönde (i.e., i(t)=−i<sub>C</sub>(t)). Yukarıda elde edilen denklemde bu değişikliği yaparsak
 
-<img src="eşitlikler/RC devresi doğal cevabı 2.jpg" alt="RC devresinin doğal cevabı denklem 2" height="50"/>
+<img src="eşitlikler/RC devresi doğal cevabı 2.jpg" alt="RC devresinin doğal cevabı denklem 2" height="40"/>
 
 elde ederiz. Kapasitörün matematiksel modelini kullanarak
 
@@ -98,31 +98,31 @@ elde ederiz. Kapasitörün matematiksel modelini kullanarak
 
 elde ederiz. Biraz manipüle edersek
 
-<img src="eşitlikler/RC devresi doğal cevabı 4.jpg" alt="RC devresinin doğal cevabı denklem 4" height="80"/>
+<img src="eşitlikler/RC devresi doğal cevabı 4.jpg" alt="RC devresinin doğal cevabı denklem 4" height="70"/>
 
 denklemini elde ederiz. Eşitliğin her iki tarafının integralini k=0'dan k=t anına kadar alalım.
 
-<img src="eşitlikler/RC devresi doğal cevabı 5.jpg" alt="RC devresinin doğal cevabı denklem 5" height="80"/>
+<img src="eşitlikler/RC devresi doğal cevabı 5.jpg" alt="RC devresinin doğal cevabı denklem 5" height="65"/>
 
 Dikkat edilirse soldaki ifade doğal logaritma ile alakalı bir integral. İntegralleri alarak ilerleyecek olursak
 
-<img src="eşitlikler/RC devresi doğal cevabı 6.jpg" alt="RC devresinin doğal cevabı denklem 6" height="80"/>
+<img src="eşitlikler/RC devresi doğal cevabı 6.jpg" alt="RC devresinin doğal cevabı denklem 6" height="65"/>
 
 ve sınır koşullarını yerlerine koyarsak
 
-<img src="eşitlikler/RC devresi doğal cevabı 7.jpg" alt="RC devresinin doğal cevabı denklem 7" height="80"/>
+<img src="eşitlikler/RC devresi doğal cevabı 7.jpg" alt="RC devresinin doğal cevabı denklem 7" height="65"/>
 
 soldaki doğal logaritma içeren ifadelerle yapılan çıkarma işlemi, aşağıdaki halini alırken
 
-<img src="eşitlikler/RC devresi doğal cevabı 8.jpg" alt="RC devresinin doğal cevabı denklem 8" height="80"/>
+<img src="eşitlikler/RC devresi doğal cevabı 8.jpg" alt="RC devresinin doğal cevabı denklem 8" height="65"/>
 
 her iki tarafı e≈2.71'in üssü olarak yazarsak (birşey değişmeyeği gibi sol taraftaki doğal logaritma ln ifadesinden kurtulmuş olacağız)
 
-<img src="eşitlikler/RC devresi doğal cevabı 9.jpg" alt="RC devresinin doğal cevabı denklem 9" height="80"/>
+<img src="eşitlikler/RC devresi doğal cevabı 9.jpg" alt="RC devresinin doğal cevabı denklem 9" height="50"/>
 
 ve en sonunda RC devresinin doğal cevabını aşağıdaki gibi elde ederiz.
 
-<img src="eşitlikler/RC devresi doğal cevabı 10.jpg" alt="RC devresinin doğal cevabı denklem 10" height="80"/>
+<img src="eşitlikler/RC devresi doğal cevabı 10.jpg" alt="RC devresinin doğal cevabı denklem 10" height="40"/>
 
 Elde ettiğimiz devrenin t=2s'den t→∞ tepkisine RC devresinin doğal cevabı<sup>5</sup> deniyor. RC devresinin doğal cevabının değişik R ve C değerlerine göre çizdirilmiş halini *Şekil 6*'de görebilirsiniz.
 
