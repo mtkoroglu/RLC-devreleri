@@ -86,11 +86,11 @@ Zamanın başlangıcında **SW1** ile gösterilen ilk anahtarın kapanmasıyla V
 
 Devrede ok yönünde dolaşıp Kirchoff'un Gerilimler Yasasını (KGY) uygularsak elde edeceğimiz denklem aşağıdaki gibi olur.
 
-<img src="eşitlikler/RC devresi doğal cevabı 1.jpg" alt="RC devresinin doğal cevabı denklem 1" height="40"/>
+<img src="eşitlikler/RC devresi doğal cevabı 1.jpg" alt="RC devresinin doğal cevabı denklem 1" height="30"/>
 
 Devrede kapasitörün depoladığı enerjinin boşalmaya başlamasıyla oluşan akım i(t) kapasitörün üzerinden geçen akım i<sub>C</sub>(t)'ye ters yönde (i.e., i(t)=−i<sub>C</sub>(t)). Yukarıda elde edilen denklemde bu değişikliği yaparsak
 
-<img src="eşitlikler/RC devresi doğal cevabı 2.jpg" alt="RC devresinin doğal cevabı denklem 2" height="40"/>
+<img src="eşitlikler/RC devresi doğal cevabı 2.jpg" alt="RC devresinin doğal cevabı denklem 2" height="30"/>
 
 elde ederiz. Kapasitörün matematiksel modelini kullanarak
 
@@ -98,11 +98,11 @@ elde ederiz. Kapasitörün matematiksel modelini kullanarak
 
 elde ederiz. Biraz manipüle edersek
 
-<img src="eşitlikler/RC devresi doğal cevabı 4.jpg" alt="RC devresinin doğal cevabı denklem 4" height="70"/>
+<img src="eşitlikler/RC devresi doğal cevabı 4.jpg" alt="RC devresinin doğal cevabı denklem 4" height="60"/>
 
 denklemini elde ederiz. Eşitliğin her iki tarafının integralini k=0'dan k=t anına kadar alalım.
 
-<img src="eşitlikler/RC devresi doğal cevabı 5.jpg" alt="RC devresinin doğal cevabı denklem 5" height="65"/>
+<img src="eşitlikler/RC devresi doğal cevabı 5.jpg" alt="RC devresinin doğal cevabı denklem 5" height="60"/>
 
 Dikkat edilirse soldaki ifade doğal logaritma ile alakalı bir integral. İntegralleri alarak ilerleyecek olursak
 
