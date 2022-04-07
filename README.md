@@ -194,7 +194,7 @@ Devredeki akımın ve endüktör akımının analitik çözümü olan bu ifadeni
 
 Şimdi elde ettiğimiz çözümün değişik R ve L değerlerine göre grafiklerini çizdirelim ve zaman sabiti τ = L/R'nin i(t)'ye olan etkisini görelim.
 
-<p><center><img src="şekiller/RL_devresi_basamak_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="360"/></center></p>
+<p align="center"><img src="şekiller/RL_devresi_basamak_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="360"/></p>
 
 *Şekil 7:* RL devresinin basamak cevabının V<sub>cc</sub> = 5V, i<sub>L</sub>(0) = 0A ve değişik R ve L değerlerine göre çizdirilmiş grafiği<sup>7</sup>.
 ### RL Devresinin Doğal Cevabı
