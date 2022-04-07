@@ -166,7 +166,7 @@ haline gelir. Sağ tarafı −R/L parantezine alalım.
 
 İçler dışlar çarpımı yapıp düzenlerek
 
-<img src="eşitlikler/RL basamak cevabı 3.jpg" alt="RL devresi basamak cevabı denklem 3" height="65"/>
+<img src="eşitlikler/RL basamak cevabı 3.jpg" alt="RL devresi basamak cevabı denklem 3" height="70"/>
 
 denklemini elde ederiz. Eşitliğin her iki tarafının integralini k=0'dan k=t anına kadar alalım.
 
@@ -180,11 +180,11 @@ Dikkat edilirse soldaki ifade doğal logaritma ile alakalı bir integral. İnteg
 
 soldaki doğal logaritma içeren ifadelerle yapılan çıkarma işlemi, aşağıdaki halini alırken
 
-<img src="eşitlikler/RL basamak cevabı 7.jpg" alt="RL devresi basamak cevabı denklem 7" height="75"/>
+<img src="eşitlikler/RL basamak cevabı 7.jpg" alt="RL devresi basamak cevabı denklem 7" height="90"/>
 
 her iki tarafı e≈2.71'in üssü olarak yazarsak (birşey değişmeyeği gibi sol taraftaki doğal logaritma ln ifadesinden kurtulmuş olacağız)
 
-<img src="eşitlikler/RL basamak cevabı 8.jpg" alt="RL devresi basamak cevabı denklem 8" height="55"/>
+<img src="eşitlikler/RL basamak cevabı 8.jpg" alt="RL devresi basamak cevabı denklem 8" height="75"/>
 
 en sonunda aşağıdaki çözümü elde ederiz.
 
