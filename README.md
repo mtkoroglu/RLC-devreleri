@@ -154,41 +154,41 @@ Devrede ok yönünde dolaşırken Kirchoff'un Gerilimler Yasasını (KGY) uygula
 
 Devrede endüktör üzerinden geçen akım i<sub>L</sub>(t) devrede dolaşan akım i(t)'ye eşit (i.e., i<sub>L</sub>(t)=i(t)). Bunu göz önünde bulundurarak yukarıda yazdığımız endüktörün matematiksel modelini KGY ile elde ettiğimiz denklemde yerine koyacak olursak
 
-<img src="eşitlikler/RL basamak cevabı denklem 0.jpg" alt="RL devresi basamak cevabı denklem 0" height="50"/>
+<img src="eşitlikler/RL basamak cevabı 0.jpg" alt="RL devresi basamak cevabı denklem 0" height="50"/>
 
 birinci dereceden adi diferansiyel denklemini elde ederiz. Bu denklemi düzenlersek
 
-<img src="eşitlikler/RL basamak cevabı denklem 1.jpg" alt="RL devresi basamak cevabı denklem 1" height="50"/>
+<img src="eşitlikler/RL basamak cevabı 1.jpg" alt="RL devresi basamak cevabı denklem 1" height="50"/>
 
 haline gelir. Sağ tarafı −R/L parantezine alalım. 
 
-<img src="eşitlikler/RL basamak cevabı denklem 2.jpg" alt="RL devresi basamak cevabı denklem 2" height="65"/>
+<img src="eşitlikler/RL basamak cevabı 2.jpg" alt="RL devresi basamak cevabı denklem 2" height="65"/>
 
 İçler dışlar çarpımı yapıp düzenlerek
 
-<img src="eşitlikler/RL basamak cevabı denklem 3.jpg" alt="RL devresi basamak cevabı denklem 3" height="65"/>
+<img src="eşitlikler/RL basamak cevabı 3.jpg" alt="RL devresi basamak cevabı denklem 3" height="65"/>
 
 denklemini elde ederiz. Eşitliğin her iki tarafının integralini k=0'dan k=t anına kadar alalım.
 
-<img src="eşitlikler/RL basamak cevabı denklem 4.jpg" alt="RL devresi basamak cevabı denklem 4" height="75"/>
+<img src="eşitlikler/RL basamak cevabı 4.jpg" alt="RL devresi basamak cevabı denklem 4" height="75"/>
 
 Dikkat edilirse soldaki ifade doğal logaritma ile alakalı bir integral. İntegralleri alarak ilerleyecek olursak
 
-<img src="eşitlikler/RL basamak cevabı denklem 5.jpg" alt="RL devresi basamak cevabı denklem 5" height="75"/>
+<img src="eşitlikler/RL basamak cevabı 5.jpg" alt="RL devresi basamak cevabı denklem 5" height="75"/>
 
-<img src="eşitlikler/RL basamak cevabı denklem 6.jpg" alt="RL devresi basamak cevabı denklem 6" height="75"/>
+<img src="eşitlikler/RL basamak cevabı 6.jpg" alt="RL devresi basamak cevabı denklem 6" height="75"/>
 
 soldaki doğal logaritma içeren ifadelerle yapılan çıkarma işlemi, aşağıdaki halini alırken
 
-<img src="eşitlikler/RL basamak cevabı denklem 7.jpg" alt="RL devresi basamak cevabı denklem 7" height="75"/>
+<img src="eşitlikler/RL basamak cevabı 7.jpg" alt="RL devresi basamak cevabı denklem 7" height="75"/>
 
 her iki tarafı e≈2.71'in üssü olarak yazarsak (birşey değişmeyeği gibi sol taraftaki doğal logaritma ln ifadesinden kurtulmuş olacağız)
 
-<img src="eşitlikler/RL basamak cevabı denklem 8.jpg" alt="RL devresi basamak cevabı denklem 8" height="55"/>
+<img src="eşitlikler/RL basamak cevabı 8.jpg" alt="RL devresi basamak cevabı denklem 8" height="55"/>
 
 en sonunda aşağıdaki çözümü elde ederiz.
 
-<img src="eşitlikler/RL basamak cevabı denklem 9.jpg" alt="RL devresi basamak cevabı denklem 9" height="55"/>
+<img src="eşitlikler/RL basamak cevabı 9.jpg" alt="RL devresi basamak cevabı denklem 9" height="55"/>
 
 Devredeki akımın ve endüktör akımının analitik çözümü olan bu ifadenin uç (ekstrem) değerlerini düşünecek olursak: t=0 anında i(0)=i(0) ve t→∞ durumunda i(∞)=V<sub>cc</sub>/R olduğunu görebiliriz. Yani zaman ilerledikçe endüktörün kısa devre olmasıyla akım er ya da geç V<sub>cc</sub>/R'ye oturuyor. Burada i(t)'nin V<sub>cc</sub>/R'ye ulaşma hızını belirleyen zaman sabiti olarak bilinen τ = L/R değeri. Zaman sabiti büyüdükçe i(t)'nin V<sub>cc</sub>/R'ye ulaşması yavaşlarken küçüldükçe de i(t)'nin V<sub>cc</sub>/R'ye ulaşması daha hızlı olur.
 
