@@ -174,21 +174,21 @@ denklemini elde ederiz. Eşitliğin her iki tarafının integralini k=0'dan k=t 
 
 Dikkat edilirse soldaki ifade doğal logaritma ile alakalı bir integral. İntegralleri alarak ilerleyecek olursak
 
-<img src="eşitlikler/RL basamak cevabı 5.jpg" alt="RL devresi basamak cevabı denklem 5" height="75"/>
+<img src="eşitlikler/RL basamak cevabı 5.jpg" alt="RL devresi basamak cevabı denklem 5" height="70"/>
 
-<img src="eşitlikler/RL basamak cevabı 6.jpg" alt="RL devresi basamak cevabı denklem 6" height="75"/>
+<img src="eşitlikler/RL basamak cevabı 6.jpg" alt="RL devresi basamak cevabı denklem 6" height="70"/>
 
 soldaki doğal logaritma içeren ifadelerle yapılan çıkarma işlemi, aşağıdaki halini alırken
 
-<img src="eşitlikler/RL basamak cevabı 7.jpg" alt="RL devresi basamak cevabı denklem 7" height="90"/>
+<img src="eşitlikler/RL basamak cevabı 7.jpg" alt="RL devresi basamak cevabı denklem 7" height="85"/>
 
 her iki tarafı e≈2.71'in üssü olarak yazarsak (birşey değişmeyeği gibi sol taraftaki doğal logaritma ln ifadesinden kurtulmuş olacağız)
 
-<img src="eşitlikler/RL basamak cevabı 8.jpg" alt="RL devresi basamak cevabı denklem 8" height="75"/>
+<img src="eşitlikler/RL basamak cevabı 8.jpg" alt="RL devresi basamak cevabı denklem 8" height="80"/>
 
 en sonunda aşağıdaki çözümü elde ederiz.
 
-<img src="eşitlikler/RL basamak cevabı 9.jpg" alt="RL devresi basamak cevabı denklem 9" height="55"/>
+<img src="eşitlikler/RL basamak cevabı 9.jpg" alt="RL devresi basamak cevabı denklem 9" height="50"/>
 
 Devredeki akımın ve endüktör akımının analitik çözümü olan bu ifadenin uç (ekstrem) değerlerini düşünecek olursak: t=0 anında i(0)=i(0) ve t→∞ durumunda i(∞)=V<sub>cc</sub>/R olduğunu görebiliriz. Yani zaman ilerledikçe endüktörün kısa devre olmasıyla akım er ya da geç V<sub>cc</sub>/R'ye oturuyor. Burada i(t)'nin V<sub>cc</sub>/R'ye ulaşma hızını belirleyen zaman sabiti olarak bilinen τ = L/R değeri. Zaman sabiti büyüdükçe i(t)'nin V<sub>cc</sub>/R'ye ulaşması yavaşlarken küçüldükçe de i(t)'nin V<sub>cc</sub>/R'ye ulaşması daha hızlı olur.
 
