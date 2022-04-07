@@ -142,13 +142,42 @@ olarak verilmişti. Bu birinci dereceden adi diferansiyel denklemde eşitliğin 
 
 Buradaki k isimli kukla değişkenin ne olduğunu derslerimizde ve yukarıda kapasitörün matematiksel modeline bakarken açıkladık.
 ### RL Devresinin Basamak Cevabı
-Aşağıdaki grafikleri sonuç veren denklemler ve nasıl elde edildiklerini gösteren videolar DBS'de.
+Şimdi, *Şekil 6*'da gördüğümüz üzere güç kaynağı, rezistör ve endüktörden oluşan RL devresinin basamak cevabını analiz edelim.
 
 <img src="şekiller/RL devresi basamak cevabı.jpg" alt="RL devresi" height="300"/>
 
 *Şekil 6:* RL devresine güç kaynağının etki eden hali.
 
+Devrede ok yönünde dolaşırken Kirchoff'un Gerilimler Yasasını (KGY) uygularsak elde edeceğimiz denklem aşağıdaki gibi olur.
+
+-V<sub>cc</sub> + Ri(t) + V<sub>L</sub>(t) = 0
+
+Devrede endüktör üzerinden geçen akım i<sub>L</sub>(t) devrede dolaşan akım i(t)'ye eşit (i.e., i<sub>L</sub>(t)=i(t)). Bunu göz önünde bulundurarak yukarıda yazdığımız endüktörün matematiksel modelini KGY ile elde ettiğimiz denklemde yerine koyacak olursak
+
+<img src="eşitlikler/RL_KGY_sonucu_0.jpg" alt="RL devresi KGY sonucu elde edilen eşitlik 0" height="55"/>
+
+birinci dereceden adi diferansiyel denklemini elde ederiz. Bu denklemi düzenlersek
+
+<img src="eşitlikler/RL_KGY_sonucu_1.jpg" alt="RL devresi KGY sonucu elde edilen eşitlik 1" height="55"/>
+
+haline gelir. Sağ tarafı −R/L parantezine alalım. 
+
+<img src="eşitlikler/RL_KGY_sonucu_2.jpg" alt="RL devresi KGY sonucu elde edilen eşitlik 2" height="55"/>
+
+İçler dışlar çarpımı yapıp düzenlerek
+
+<img src="eşitlikler/RL_KGY_sonucu_3.jpg" alt="RL devresi KGY sonucu elde edilen eşitlik 3" height="55"/>
+
+denklemini elde ederiz. Eşitliğin her iki tarafının integralini k=0'dan k=t anına kadar alalım.
+
+<img src="eşitlikler/RL_KGY_sonucu_4.jpg" alt="RL devresi KGY sonucu elde edilen eşitlik 4" height="65"/>
+
+
+
+
 <img src="şekiller/RL_devresi_basamak_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="400"/>
+
+
 
 *Şekil 7:* RL devresinin basamak cevabının V<sub>cc</sub> = 5V, i<sub>L</sub>(0) = 0A ve değişik R ve L değerlerine göre çizdirilmiş grafiği<sup>7</sup>.
 ### RL Devresinin Doğal Cevabı
