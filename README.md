@@ -176,6 +176,8 @@ Dikkat edilirse soldaki ifade doğal logaritma ile alakalı bir integral. İnteg
 
 <img src="eşitlikler/RL basamak cevabı 5.jpg" alt="RL devresi basamak cevabı denklem 5" height="70"/>
 
+sınır koşullarını yerlerine koyarsak
+
 <img src="eşitlikler/RL basamak cevabı 6.jpg" alt="RL devresi basamak cevabı denklem 6" height="70"/>
 
 soldaki doğal logaritma içeren ifadelerle yapılan çıkarma işlemi, aşağıdaki halini alırken
