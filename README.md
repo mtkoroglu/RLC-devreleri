@@ -238,7 +238,7 @@ elde ederiz. Eşitliğin her iki tarafının integralini k=0'dan k=t anına kada
 
 Sınır koşullarını yerlerine koyalım.
 
-<img src="eşitlikler/RL doğal cevap 4.jpg" alt="RL devresi doğal cevabı denklem 4" height="60"/>
+<img src="eşitlikler/RL doğal cevap 4.jpg" alt="RL devresi doğal cevabı denklem 4" height="50"/>
 
 Soldaki doğal logaritma içeren ifadelerle yapılan çıkarma işlemi, aşağıdaki halini alırken
 
@@ -250,9 +250,9 @@ her iki tarafı e≈2.71'in üssü olarak yazarsak (birşey değişmeyeği gibi 
 
 ve en sonunda RL devresinin doğal cevabını aşağıdaki gibi elde ederiz.
 
-<img src="eşitlikler/RL devresi doğal cevap 7.jpg" alt="RL devresi doğal cevabı denklem 7" height="60"/>
+<img src="eşitlikler/RL doğal cevap 7.jpg" alt="RL devresi doğal cevabı denklem 7" height="60"/>
 
-Burada yine kabaca uç (ekstrem) değerlere bakarak analiz yapacak olursak V<sub>C</sub>(0) = V<sub>cc</sub> olarak başlamış. Devrede gerilim kaynağının çıkarılması ve **SW2** anahtarının kapanması ile kapasitör üzerinde depolanmış enerji, direnç R üzerinden zaman sabiti tau = RC ile orantılı olarak tükeniyor ve böylece V<sub>C</sub>(t) zaman ilerlerken sıfırlanıyor. Aşağıda analitik çözümünü elde ettiğimiz RL devresinin doğal cevabının değişik R ve L değerlerine göre çizdirilmiş halini görebilirsiniz.
+Burada yine kabaca uç (ekstrem) değerlere bakarak analiz yapacak olursak i<sub>L</sub>(0) = V<sub>cc</sub>/R olarak başlamış. Devrede gerilim kaynağının çıkarılması ve **SW2** anahtarının kapanması ile endüktörde depolanmış enerji, direnç R üzerinden zaman sabiti tau = L/R ile orantılı olarak tükeniyor ve böylece i<sub>L</sub>(t) zaman ilerlerken sıfırlanıyor. Aşağıda analitik çözümünü elde ettiğimiz RL devresinin doğal cevabının değişik R ve L değerlerine göre çizdirilmiş halini görebilirsiniz.
 
 <img src="şekiller/RL_devresi_dogal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
 
