@@ -250,7 +250,7 @@ her iki tarafı e≈2.71'in üssü olarak yazarsak (birşey değişmeyeği gibi 
 
 ve en sonunda RL devresinin doğal cevabını aşağıdaki gibi elde ederiz.
 
-<img src="eşitlikler/RL devresi doğal cevabı 7.jpg" alt="RL devresi doğal cevabı denklem 7" height="60"/>
+<img src="eşitlikler/RL devresi doğal cevap 7.jpg" alt="RL devresi doğal cevabı denklem 7" height="60"/>
 
 Burada yine kabaca uç (ekstrem) değerlere bakarak analiz yapacak olursak V<sub>C</sub>(0) = V<sub>cc</sub> olarak başlamış. Devrede gerilim kaynağının çıkarılması ve **SW2** anahtarının kapanması ile kapasitör üzerinde depolanmış enerji, direnç R üzerinden zaman sabiti tau = RC ile orantılı olarak tükeniyor ve böylece V<sub>C</sub>(t) zaman ilerlerken sıfırlanıyor. Aşağıda analitik çözümünü elde ettiğimiz RL devresinin doğal cevabının değişik R ve L değerlerine göre çizdirilmiş halini görebilirsiniz.
 
