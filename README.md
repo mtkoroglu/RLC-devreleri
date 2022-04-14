@@ -216,11 +216,31 @@ olduğunu gözlemledik. Şimdi *Şekil 8*'de gösterildiği gibi bir anahtarlama
 
 Her ne kadar *Şekil 8*'de t=2'den itibaren RL devresinin doğal cevabına geçmiş olsak da devre *Şekil 9*'daki halini aldıktan sonra kronometreyi sıfırlamış gibi hareket edeceğiz. Yine ok yönünde KGY uygularsak 
 
-Ri(t)+V<sub>L</sub>(t)=0
+Ri(t)-V<sub>L</sub>(t)=0
+
+denklemini elde ederiz. Bu da bize 
+
+V<sub>L</sub>(t)=Ri(t)
+
+eşitliğini verir. Burada endüktör modelini kullanırsak 
 
 <img src="eşitlikler/RL doğal cevap 0.jpg" alt="RL devresi doğal cevabı denklem 0" height="50"/>
 
-denklemini elde ederiz.
+âdi diferansiyel denklemini elde ederiz. *Şekil 9*'daki devreye bakınca i(t)=-i<sub>L</sub>(t) olduğunu görüyoruz. Bu değişikliği yapıp düzenlemeler yaparsak 
+
+<img src="eşitlikler/RL doğal cevap 1.jpg" alt="RL devresi doğal cevabı denklem 1" height="50"/>
+
+elde ederiz. Eşitliğin her iki tarafının integralini $k=0$'dan $k=t$ anına kadar alalım.
+
+<img src="eşitlikler/RL doğal cevap 2.jpg" alt="RL devresi doğal cevabı denklem 2" height="50"/>
+
+Sınır koşullarını yerlerine koyalım.
+
+<img src="eşitlikler/RL doğal cevap 2.jpg" alt="RL devresi doğal cevabı denklem 2" height="50"/>
+
+<img src="eşitlikler/RL doğal cevap 3.jpg" alt="RL devresi doğal cevabı denklem 3" height="50"/>
+
+
 
 <img src="şekiller/RL_devresi_dogal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
 
