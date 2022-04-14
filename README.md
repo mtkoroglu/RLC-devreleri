@@ -136,7 +136,7 @@ Endüktörün matematiksel modeli
 
 <img src="eşitlikler/endüktör denklemi.JPG" alt="kapasitör denklemi." height="50"/>
 
-olarak verilmişti. Bu birinci dereceden adi diferansiyel denklemde eşitliğin her iki tarafının k=t<sub>0</sub> anından k=t anına kadar integralini alırsak aşağıdaki çözümü elde ederiz.
+olarak verilmişti. Bu birinci dereceden âdi diferansiyel denklemde eşitliğin her iki tarafının k=t<sub>0</sub> anından k=t anına kadar integralini alırsak aşağıdaki çözümü elde ederiz.
 
 <img src="eşitlikler/endüktör denklemi çözümü.JPG" alt="kapasitör denklemi çözümü." height="55"/>
 
@@ -200,7 +200,11 @@ Devredeki akımın ve endüktör akımının analitik çözümü olan bu ifadeni
 
 *Şekil 7:* RL devresinin basamak cevabının V<sub>cc</sub> = 5V, i<sub>L</sub>(0) = 0A ve değişik R ve L değerlerine göre çizdirilmiş grafiği<sup>7</sup>.
 ### RL Devresinin Doğal Cevabı
-Aşağıdaki grafikleri sonuç veren denklemler ve nasıl elde edildiklerini gösteren videolar DBS'de.
+Yukarıda gördüğümüz RL devresinde devreye bağlı bir güç kaynağı vardı. Bu DC gerilim kaynağının $t=0$ anında (bir anahtar yardımıyla) devreye bağlanmasıyla  endüktör üzerinden geçen akımın $i_L(t)$ değişimini görsel olarak analiz ettik ve 
+
+<img src="eşitlikler/RL basamak cevabı kalıcı hal.jpg" alt="RL devresi basamak cevabı kalıcı hal" height="50"/>
+
+olduğunu gözlemledik. Şimdi *Şekil 8*'de gösterildiği gibi bir anahtarlama ile harici güç kaynağını devre dışı bırakıp *Şekil 9*'da ortaya çıkan RL devresinin doğal cevabını analiz edelim.
 
 <img src="şekiller/RL devresi anahtarlama.jpg" alt="RL devresi anahtarlama" height="300"/>
 
@@ -208,7 +212,15 @@ Aşağıdaki grafikleri sonuç veren denklemler ve nasıl elde edildiklerini gö
 
 <img src="şekiller/RL devresi doğal cevabı.jpg" alt="RL devresi doğal cevabın oluştuğu devre" height="300"/>
 
-*Şekil 9:* *Şekil 8*'de t=2s anından sonra devrenin almış olduğu hal. Devreden geçen akım grafiğine RL devresi doğal cevabı denir.
+*Şekil 9:* *Şekil 8*'de t=2s anından sonra devrenin almış olduğu hal. Devreden geçen akım grafiğine RL devresinin doğal cevabı denir.
+
+Her ne kadar *Şekil 8*'de t=2'den itibaren RL devresinin doğal cevabına geçmiş olsak da devre *Şekil 9*'daki halini aldıktan sonra kronometreyi sıfırlamış gibi hareket edeceğiz. Yine ok yönünde KGY uygularsak 
+
+Ri(t)+V<sub>L</sub>(t)=0
+
+<img src="eşitlikler/RL doğal cevap 0.jpg" alt="RL devresi doğal cevabı denklem 0" height="50"/>
+
+denklemini elde ederiz.
 
 <img src="şekiller/RL_devresi_dogal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
 
