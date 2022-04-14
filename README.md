@@ -228,19 +228,30 @@ eşitliğini verir. Burada endüktör modelini kullanırsak
 
 âdi diferansiyel denklemini elde ederiz. *Şekil 9*'daki devreye bakınca i(t)=-i<sub>L</sub>(t) olduğunu görüyoruz. Bu değişikliği yapıp düzenlemeler yaparsak 
 
-<img src="eşitlikler/RL doğal cevap 1.jpg" alt="RL devresi doğal cevabı denklem 1" height="50"/>
+<img src="eşitlikler/RL doğal cevap 1.jpg" alt="RL devresi doğal cevabı denklem 1" height="60"/>
 
-elde ederiz. Eşitliğin her iki tarafının integralini $k=0$'dan $k=t$ anına kadar alalım.
+elde ederiz. Eşitliğin her iki tarafının integralini k=0'dan k=t anına kadar alalım.
 
-<img src="eşitlikler/RL doğal cevap 2.jpg" alt="RL devresi doğal cevabı denklem 2" height="50"/>
+<img src="eşitlikler/RL doğal cevap 2.jpg" alt="RL devresi doğal cevabı denklem 2" height="60"/>
 
 Sınır koşullarını yerlerine koyalım.
 
-<img src="eşitlikler/RL doğal cevap 2.jpg" alt="RL devresi doğal cevabı denklem 2" height="50"/>
+<img src="eşitlikler/RL doğal cevap 3.jpg" alt="RL devresi doğal cevabı denklem 3" height="60"/>
 
-<img src="eşitlikler/RL doğal cevap 3.jpg" alt="RL devresi doğal cevabı denklem 3" height="50"/>
+Soldaki doğal logaritma içeren ifadelerle yapılan çıkarma işlemi, aşağıdaki halini alırken
 
+<img src="eşitlikler/RL doğal cevap 4.jpg" alt="RL devresi doğal cevabı denklem 4" height="60"/>
 
+her iki tarafı e≈2.71'in üssü olarak yazarsak (birşey değişmeyeği gibi sol taraftaki doğal logaritma ifadesinden kurtulmuş olacağız)
+
+<img src="eşitlikler/RL doğal cevap 5.jpg" alt="RL devresi doğal cevabı denklem 5" height="60"/>
+<img src="eşitlikler/RL doğal cevap 6.jpg" alt="RL devresi doğal cevabı denklem 6" height="60"/>
+
+ve en sonunda RL devresinin doğal cevabını aşağıdaki gibi elde ederiz.
+
+<img src="eşitlikler/RL devresi doğal cevabı 7.jpg" alt="RL devresi doğal cevabı denklem 7" height="60"/>
+
+Burada yine kabaca uç (ekstrem) değerlere bakarak analiz yapacak olursak V<sub>C</sub>(0) = V<sub>cc</sub> olarak başlamış. Devrede gerilim kaynağının çıkarılması ve **SW2** anahtarının kapanması ile kapasitör üzerinde depolanmış enerji, direnç R üzerinden zaman sabiti tau = RC ile orantılı olarak tükeniyor ve böylece V<sub>C</sub>(t) zaman ilerlerken sıfırlanıyor. Aşağıda analitik çözümünü elde ettiğimiz RL devresinin doğal cevabının değişik R ve L değerlerine göre çizdirilmiş halini görebilirsiniz.
 
 <img src="şekiller/RL_devresi_dogal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
 
