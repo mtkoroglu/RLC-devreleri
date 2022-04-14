@@ -234,17 +234,18 @@ elde ederiz. Eşitliğin her iki tarafının integralini k=0'dan k=t anına kada
 
 <img src="eşitlikler/RL doğal cevap 2.jpg" alt="RL devresi doğal cevabı denklem 2" height="60"/>
 
-Sınır koşullarını yerlerine koyalım.
-
 <img src="eşitlikler/RL doğal cevap 3.jpg" alt="RL devresi doğal cevabı denklem 3" height="60"/>
 
-Soldaki doğal logaritma içeren ifadelerle yapılan çıkarma işlemi, aşağıdaki halini alırken
+Sınır koşullarını yerlerine koyalım.
 
 <img src="eşitlikler/RL doğal cevap 4.jpg" alt="RL devresi doğal cevabı denklem 4" height="60"/>
 
-her iki tarafı e≈2.71'in üssü olarak yazarsak (birşey değişmeyeği gibi sol taraftaki doğal logaritma ifadesinden kurtulmuş olacağız)
+Soldaki doğal logaritma içeren ifadelerle yapılan çıkarma işlemi, aşağıdaki halini alırken
 
 <img src="eşitlikler/RL doğal cevap 5.jpg" alt="RL devresi doğal cevabı denklem 5" height="60"/>
+
+her iki tarafı e≈2.71'in üssü olarak yazarsak (birşey değişmeyeği gibi sol taraftaki doğal logaritma ifadesinden kurtulmuş olacağız)
+
 <img src="eşitlikler/RL doğal cevap 6.jpg" alt="RL devresi doğal cevabı denklem 6" height="60"/>
 
 ve en sonunda RL devresinin doğal cevabını aşağıdaki gibi elde ederiz.
