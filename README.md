@@ -254,7 +254,7 @@ ve en sonunda RL devresinin doğal cevabını aşağıdaki gibi elde ederiz.
 
 Burada yine kabaca uç (ekstrem) değerlere bakarak analiz yapacak olursak i<sub>L</sub>(0) = V<sub>cc</sub>/R olarak başlamış. Devrede gerilim kaynağının çıkarılması ve **SW2** anahtarının kapanması ile endüktörde depolanmış enerji, direnç R üzerinden zaman sabiti tau = L/R ile orantılı olarak tükeniyor ve böylece i<sub>L</sub>(t) zaman ilerlerken sıfırlanıyor. Aşağıda analitik çözümünü elde ettiğimiz RL devresinin doğal cevabının değişik R ve L değerlerine göre çizdirilmiş halini görebilirsiniz.
 
-<img src="şekiller/RL_devresi_dogal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" height="300"/>
+<p align="center"><img src="şekiller/RL_devresi_dogal_cevabı_grafik.png" alt="RL devresinin basamak cevabının değişik R ve L değerlerine göre çizdirilmiş hali" width=%100 height=auto></p>
 
 *Şekil 10:* RL devresinin doğal cevabının i<sub>L</sub>(0) *Şekil 5*'de hangi değere oturduysa kaldığı yerden ve değişik R ve L değerlerine göre grafiği<sup>8</sup>.
 ## RLC Devrelerinin Analizi
